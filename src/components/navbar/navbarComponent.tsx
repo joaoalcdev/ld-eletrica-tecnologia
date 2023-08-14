@@ -14,13 +14,13 @@ const Navbar = () => {
     <>
       <header className={`flex items-center w-full bg-blue-800`}>
         <div className="container">
-          <div className="relative flex items-center justify-between mx-4">
+          <div className="relative flex items-center justify-between px-0">
             <div className="max-w-full px-4 w-60">
-              <a href="/#" className="block w-full py-2 px-0">
-                <Image src={LogoLD} alt="logo" className="w-1/2" />
+              <a href="/#" className="flex w-2/3 py-2 px-0">
+                <Image src={LogoLD} alt="logo" className="" />
               </a>
             </div>
-            <div className="flex items-center justify-between w-full px-4">
+            <div className="flex items-center px-0">
               <div>
                 <button
                   // @click="navbarOpen = !navbarOpen"
@@ -29,20 +29,20 @@ const Navbar = () => {
                   id="navbarToggler"
                   className={` ${
                     open && "navbarTogglerActive"
-                  } absolute right-4 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden`}
+                  } absolute right-0 top-1/2 block -translate-y-1/2 rounded-lg px-3 lg:px-0 py-[6px] ring-primary focus:ring-2 lg:hidden`}
                 >
-                  <span className="relative my-[6px] block h-[2px] w-[30px] bg-body-color"></span>
-                  <span className="relative my-[6px] block h-[2px] w-[30px] bg-body-color"></span>
-                  <span className="relative my-[6px] block h-[2px] w-[30px] bg-body-color"></span>
+                  <span className="relative my-[6px] block h-[2px] w-[30px] bg-[#000]"></span>
+                  <span className="relative my-[6px] block h-[2px] w-[30px] bg-[#000]"></span>
+                  <span className="relative my-[6px] block h-[2px] w-[30px] bg-[#000]"></span>
                 </button>
                 <nav
                   // :className="!navbarOpen && 'hidden' "
                   id="navbarCollapse"
-                  className={`absolute right-4 top-full w-full max-w-[250px] rounded-lg bg-white py-5 px-6 shadow lg:static lg:block lg:w-full lg:max-w-full lg:shadow-none ${
+                  className={`absolute right-0 top-full w-full max-w-[250px] rounded-lg bg-blue-800 py-5 px-6 shadow lg:px-0 lg:relative lg:flex lg:w-full lg:max-w-full lg:shadow-none ${
                     !open && "hidden"
                   } `}
                 >
-                  <ul className="block lg:flex">
+                  <ul className="block lg:flex lg:relative ">
                     <ListItem
                       navItemStyles="text-dark hover:text-primary"
                       NavLink="/#"
@@ -76,21 +76,6 @@ const Navbar = () => {
                   </ul>
                 </nav>
               </div>
-              {/* <div className="justify-end hidden pr-16 sm:flex lg:pr-0">
-              <a
-                href="/#"
-                className="py-3 text-base font-medium px-7 text-dark hover:text-primary"
-              >
-                Sign in
-              </a>
-
-              <a
-                href="/#"
-                className="py-3 text-base font-medium text-white rounded-lg bg-primary px-7 hover:bg-opacity-90"
-              >
-                Sign Up
-              </a>
-            </div> */}
             </div>
           </div>
         </div>
@@ -118,7 +103,7 @@ const ListItem: FC<Props> = ({
       <a
         {...props}
         href={NavLink}
-        className={`flex py-2 text-base font-medium lg:ml-12 lg:inline-flex ${navItemStyles}`}
+        className={`flex py-2 text-base font-medium lg:mx-4 lg:flex lg:justify-between lg: ${navItemStyles}`}
       >
         {children}
       </a>
