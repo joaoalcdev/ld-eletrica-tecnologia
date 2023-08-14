@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <>
-      <header className={`flex items-center w-full bg-blue-800`}>
+      <header className={`flex items-center w-full lg:bg-gradient-to-r lg:from-blue-100 lg:via-blue-100 lg:to-transparent`}>
         <div className="container">
           <div className="relative flex items-center justify-between px-0">
             <div className="max-w-full px-4 w-60">
@@ -38,7 +38,7 @@ const Navbar = () => {
                 <nav
                   // :className="!navbarOpen && 'hidden' "
                   id="navbarCollapse"
-                  className={`absolute right-0 top-full w-full max-w-[250px] rounded-lg bg-blue-800 py-5 px-6 shadow lg:px-0 lg:relative lg:flex lg:w-full lg:max-w-full lg:shadow-none ${
+                  className={`absolute right-0 top-full w-full bg-blue-300 lg:bg-transparent max-w-[250px] rounded-lg py-5 px-6 shadow lg:px-0 lg:relative lg:flex lg:w-full lg:max-w-full lg:shadow-none ${
                     !open && "hidden"
                   } `}
                 >
@@ -103,7 +103,7 @@ const ListItem: FC<Props> = ({
       <a
         {...props}
         href={NavLink}
-        className={`flex py-2 text-base font-medium lg:mx-4 lg:flex lg:justify-between lg: ${navItemStyles}`}
+        className={`hover:text-blue-700 text-gray-900 flex py-2 text-base font-bold lg:mx-4 lg:flex lg:justify-between lg:bg-gradient-to-r lg:from-blue-100 lg:via-blue-200 lg:to-blue-100 lg:bg-[length:50%_4px] lg:hover:bg-[length:100%_4px] lg:rounded-full lg:bg-no-repeat lg:bg-bottom duration-150 ${navItemStyles}`}
       >
         {children}
       </a>
