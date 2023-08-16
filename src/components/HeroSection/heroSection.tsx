@@ -12,7 +12,7 @@ import Navbar from "../navbar/navbarComponent";
 const HeroSection = () => {
   return (
     <>
-      <div className="h-screen max-h-full relative flex flex-col-reverse py-8 md:pt-0 md:flex-col md:pb-0 bg-blue-100">
+      <div className="h-full md:h-screen md:max-h-full relative flex flex-col-reverse sm:py-8 md:pt-0 md:flex-col md:pb-0 bg-blue-100">
         <div className="bg-black inset-y-0 top-0 right-0 z-0 w-full max-w-xl px-4 mx-auto md:px-0 md:pr-0 md:mb-0 md:mx-0 md:w-7/12 md:max-w-full md:absolute xl:px-0">
           <svg
             className="absolute left-0 hidden h-full text-white transform -translate-x-1/2 md:block"
