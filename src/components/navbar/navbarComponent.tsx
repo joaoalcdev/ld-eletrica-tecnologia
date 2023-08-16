@@ -45,31 +45,31 @@ const Navbar = () => {
                   <ul className="block lg:flex lg:relative ">
                     <ListItem
                       navItemStyles="text-dark hover:text-primary"
-                      NavLink="/#"
+                      NavLink="#inicio"
                     >
                       Início
                     </ListItem>
                     <ListItem
                       navItemStyles="text-dark hover:text-primary"
-                      NavLink="/#"
+                      NavLink="#beneficios"
                     >
                       Benefícios
                     </ListItem>
                     <ListItem
                       navItemStyles="text-dark hover:text-primary"
-                      NavLink="/#"
+                      NavLink="sobre"
                     >
                       Quem somos
                     </ListItem>
                     <ListItem
                       navItemStyles="text-dark hover:text-primary"
-                      NavLink="/#"
+                      NavLink="serviços"
                     >
                       Serviços
                     </ListItem>
                     <ListItem
                       navItemStyles="text-dark hover:text-primary"
-                      NavLink="/#"
+                      NavLink="depoimentos"
                     >
                       Depoimentos
                     </ListItem>
