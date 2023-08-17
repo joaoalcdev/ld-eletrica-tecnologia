@@ -1,8 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 import React, { useState, FC } from "react";
-
-import Link from "next/link";
 import Image from "next/image";
 
 const LogoLD = require("/public/images/logo.svg");
@@ -12,10 +10,13 @@ const Navbar = () => {
 
   return (
     <>
-      <header className={`flex items-center w-full lg:bg-gradient-to-r lg:from-blue-100 lg:via-blue-100 lg:to-transparent`}>
-        <div className="container">
+      <header
+        className={`flex items-center w-full lg:bg-gradient-to-r lg:from-blue-100 lg:via-blue-100 lg:to-transparent`}
+      >
+        <div className="w-full w-max-full">
+          {/* <div className="container w-full w-max-full"> */}
           <div className="relative flex items-center justify-between px-0">
-            <div className="max-w-full px-4 w-60">
+            <div className="max-w-full px-0 w-60">
               <a href="/#" className="flex w-2/3 py-2 px-0">
                 <Image src={LogoLD} alt="logo" className="" />
               </a>
@@ -25,7 +26,6 @@ const Navbar = () => {
                 <button
                   // @click="navbarOpen = !navbarOpen"
                   onClick={() => setOpen(!open)}
-                  // :className="navbarOpen && 'navbarTogglerActive' "
                   id="navbarToggler"
                   className={` ${
                     open && "navbarTogglerActive"
