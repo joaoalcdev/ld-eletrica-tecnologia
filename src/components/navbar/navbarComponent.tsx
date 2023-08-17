@@ -47,7 +47,7 @@ const Navbar = () => {
   return (
     <>
       <header
-        className={`flex items-center w-full lg:bg-gradient-to-r lg:from-blue-100 lg:via-blue-100 lg:to-transparent`}
+        className={`flex items-center w-full lg:bg-gradient-to-r lg:from-blue-200 lg:via-blue-200 lg:to-transparent`}
       >
         <div className="w-full w-max-full">
           {/* <div className="container w-full w-max-full"> */}
