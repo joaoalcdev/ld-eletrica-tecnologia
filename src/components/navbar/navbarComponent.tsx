@@ -1,12 +1,48 @@
+/* eslint-disable react-hooks/rules-of-hooks */
+/* eslint-disable react/jsx-key */
 /* eslint-disable @next/next/no-img-element */
 "use client";
-import React, { useState, FC } from "react";
+import React, { useState, FC, useEffect } from "react";
 import Image from "next/image";
 
 const LogoLD = require("/public/images/logo.svg");
+import { Bars3Icon } from "@heroicons/react/24/outline";
+
+const features = [
+  {
+    icon: Bars3Icon,
+  },
+];
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+  // create a function to handle the click event on the button
+  // when the button is clicked, the state for the menu will be updated to the opposite of what it was, if it was open, it will be closed and vice versa
+  const handleClick = () => {
+    setOpen(!open);
+  };
+  if (open) {
+    document.addEventListener("focus", (e) => {
+      const navbarToggler = document.getElementById("navbarToggler");
+      const navbarCollapse = document.getElementById("navbarCollapse");
+      if (e.target !== navbarToggler && e.target !== navbarCollapse) {
+        setOpen(false);
+      }
+    });
+    document.addEventListener("scroll", () => {
+      setOpen(false);
+    });
+    document.querySelectorAll("a").forEach((item) => {
+      item.addEventListener("click", () => {
+        setOpen(false);
+      });
+    });
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Esc" || e.key === "Escape") {
+        setOpen(false);
+      }
+    });
+  }
 
   return (
     <>
@@ -25,15 +61,22 @@ const Navbar = () => {
               <div>
                 <button
                   // @click="navbarOpen = !navbarOpen"
-                  onClick={() => setOpen(!open)}
+                  // onClick={() => handleClick()}
+                  onClick={() => handleClick()}
                   id="navbarToggler"
                   className={` ${
                     open && "navbarTogglerActive"
-                  } absolute right-0 top-1/2 block -translate-y-1/2 rounded-lg px-3 lg:px-0 py-[6px] ring-primary focus:ring-2 lg:hidden`}
+                  } absolute right-0 top-1/2 block -translate-y-1/2 px-0 py-0 lg:px-0 ring-primary focus:ring-2 lg:hidden`}
                 >
-                  <span className="relative my-[6px] block h-[2px] w-[30px] bg-[#000]"></span>
-                  <span className="relative my-[6px] block h-[2px] w-[30px] bg-[#000]"></span>
-                  <span className="relative my-[6px] block h-[2px] w-[30px] bg-[#000]"></span>
+                  {features.map((feature) => (
+                    <feature.icon
+                      className="h-full w-[30px]  block text-[#000]"
+                      aria-hidden="true"
+                    />
+                  ))}
+                  {/* <span className="relative my-[6px] block h-[2px] w-[25px] bg-[#000]"></span>
+                  <span className="relative my-[6px] block h-[2px] w-[25px] bg-[#000]"></span>
+                  <span className="relative my-[6px] block h-[2px] w-[25px] bg-[#000]"></span> */}
                 </button>
                 <nav
                   // :className="!navbarOpen && 'hidden' "
