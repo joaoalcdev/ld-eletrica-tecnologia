@@ -9,12 +9,19 @@ const config: Config = {
   theme: {
     extend: {
       animation: {
-        ["infinite-slider"]: "infiniteSlider 20s linear infinite",
+        ["infinite-slider"]: "infiniteSlider 30s linear infinite",
+        ["infinite-slider2"]: "infiniteSlider2 30s linear infinite",
       },
       keyframes: {
         infiniteSlider: {
           "0%": { transform: "translateX(0)" },
           "100%": {
+            transform: "translateX(calc(-250px * 5))",
+          },
+        },
+        infiniteSlider2: {
+          "100%": { transform: "translateX(0)" },
+          "0%": {
             transform: "translateX(calc(-250px * 5))",
           },
         },
