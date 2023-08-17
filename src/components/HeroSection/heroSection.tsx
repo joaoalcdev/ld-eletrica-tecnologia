@@ -8,6 +8,7 @@ const newColorSvg = "#ebf8ee";
 const ImageHero = require("/public/images/background_image.jpg");
 
 import Navbar from "../navbar/navbarComponent";
+import DividerComponent from "../Dividers/dividerComponent";
 
 const HeroSection = () => {
   return (
@@ -63,6 +64,7 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
+      <DividerComponent></DividerComponent>
     </>
   );
 };
