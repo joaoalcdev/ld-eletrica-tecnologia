@@ -13,8 +13,8 @@ import DividerComponent from "../Dividers/dividerComponent";
 const HeroSection = () => {
   return (
     <>
-      <div className="h-full md:h-screen md:max-h-full relative flex flex-col-reverse sm:py-8 md:pt-0 md:flex-col md:pb-0 bg-blue-100">
-        <div className="bg-black inset-y-0 top-0 right-0 z-0 w-full max-w-xl px-4 mx-auto md:px-0 md:pr-0 md:mb-0 md:mx-0 md:w-7/12 md:max-w-full md:absolute xl:px-0">
+      <div className="h-full md:h-screen md:max-h-full relative flex flex-col-reverse sm:py-0 md:pt-0 md:flex-col md:pb-0 bg-blue-100">
+        <div className="bg-black inset-y-0 top-0 right-0 z-0 w-full max-w-xl px-0 mx-auto md:px-0 md:pr-0 md:mb-0 md:mx-0 md:w-7/12 md:max-w-full md:absolute xl:px-0">
           <svg
             className="absolute left-0 hidden h-full text-white transform -translate-x-1/2 md:block"
             viewBox="0 0 100 100"
@@ -29,7 +29,7 @@ const HeroSection = () => {
             alt=""
           />
         </div>
-        <div className="relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 md:pl-4 md:max-w-screen-xl">
+        <div className="relative flex flex-col items-start w-full max-w-xl px-0 mx-auto md:px-0 md:pl-0 md:max-w-screen-xl">
           <Navbar></Navbar>
           <div className="mb-16 md:my-40 md:max-w-md md:pr-5">
             <p className="inline-block px-3 pt-[0.2rem] mb-4 text-xs font-semibold  text-gray-800 uppercase rounded-full bg-blue-400">
