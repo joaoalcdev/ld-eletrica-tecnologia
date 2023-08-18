@@ -14,25 +14,25 @@ const features = [
   {
     name: "Confiança",
     description:
-      "Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.",
+      "Construir confiança é essencial para nós. Conte conosco para soluções confiáveis ​​adaptadas às suas necessidades e na entrega consistente de resultados excepcionais",
     icon: HandThumbUpIcon,
   },
   {
     name: "Segurança",
     description:
-      "Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.",
+      "Sua segurança é nossa prioridade máxima. Nossos profissionais são treinados para seguir os mais rigorosos protocolos de segurança em cada trabalho que realizamos, garantindo tranquilidade para você e para todos ao seu redor.",
     icon: ShieldCheckIcon,
   },
   {
     name: "Qualidade",
     description:
-      "Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.",
+      "A qualidade é a base de cada projeto que realizamos. Desde os materiais que utilizamos até a execução cuidadosa, estamos comprometidos em entregar resultados que superem suas expectativas e mantenham nossos padrões elevados.",
     icon: CheckBadgeIcon,
   },
   {
     name: "Experiência e Agilidade",
     description:
-      "Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.",
+      "Nossa equipe traz consigo anos de experiência combinados com agilidade excepcional. Isso significa que podemos resolver seus problemas de forma eficiente e com um toque de maestria que só a experiência pode proporcionar.",
     icon: BoltIcon,
   },
 ];
@@ -40,23 +40,26 @@ const features = [
 const AdvantageSection = () => {
   return (
     <>
-      <div className="px-2 sm:px-12 md:px-16 lg:px-20 py-24 lg:pt-24 lg:pb-0 bg-white">
+      <div className="px-2 sm:px-12 md:px-16 lg:px-20 py-24 lg:pt-24 lg:pb-24 bg-white">
         <div
-          className="flex relative h-full lg:h-screen my-0 bg-white sm:py-0"
+          className="flex relative h-full my-0 bg-white sm:py-0"
           id="beneficios"
         >
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <div className="mx-auto max-w-2xl lg:text-center">
-              <h2 className="text-base font-semibold leading-7 text-blue-600">
-                Lorem Ipsum
+            <div className="whitespace-normal mx-auto max-w-2xl lg:text-center">
+              <h2 className="text-base text-center font-semibold leading-7 text-blue-600">
+                Porque nos escolher
               </h2>
-              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              <p className="mt-2 text-3xl font-bold text-center md:text-center tracking-tight text-gray-900 sm:text-4xl">
+                Não somos apenas prestadores de serviços, somos parceiros
+                comprometidos em oferecer soluções excepcionais
               </p>
-              <p className="mt-5 text-lg leading-8 text-gray-600">
-                Quis tellus eget adipiscing convallis sit sit eget aliquet quis.
-                Suspendisse eget egestas a elementum pulvinar et feugiat blandit
-                at. In mi viverra elit nunc.
+              <p className="mt-5 text-lg text-justify md:text-center leading-8 text-gray-600">
+                Nossa dedicação vai além do óbvio, acreditamos que nossa
+                abordagem única é o que nos diferencia. Algumas razões pelas
+                quais somos a{" "}
+                <span className="text-blue-500">melhor escolha</span> para suas
+                necessidades em serviços elétricos e tecnológicos.
               </p>
             </div>
             <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
@@ -72,7 +75,7 @@ const AdvantageSection = () => {
                       </div>
                       {feature.name}
                     </dt>
-                    <dd className="mt-2 text-base leading-7 text-gray-600">
+                    <dd className="mt-2 text-base leading-7 text-justify text-gray-600">
                       {feature.description}
                     </dd>
                   </div>
