@@ -19,7 +19,6 @@ import BG_13 from "../../../public/testimonials/gov_ceara.png";
 import BG_14 from "../../../public/testimonials/odontocenter.png";
 import BG_15 from "../../../public/testimonials/pref_russas.png";
 
-
 const Image_BG_01 = () => {
   return (
     <>
@@ -123,7 +122,7 @@ const Image_BG_08 = () => {
       </div>
     </>
   );
-}
+};
 const Image_BG_09 = () => {
   return (
     <>
@@ -136,7 +135,7 @@ const Image_BG_09 = () => {
       </div>
     </>
   );
-}
+};
 const Image_BG_10 = () => {
   return (
     <>
@@ -149,7 +148,7 @@ const Image_BG_10 = () => {
       </div>
     </>
   );
-}
+};
 const Image_BG_11 = () => {
   return (
     <>
@@ -162,7 +161,7 @@ const Image_BG_11 = () => {
       </div>
     </>
   );
-}
+};
 const Image_BG_12 = () => {
   return (
     <>
@@ -175,7 +174,7 @@ const Image_BG_12 = () => {
       </div>
     </>
   );
-}
+};
 const Image_BG_13 = () => {
   return (
     <>
@@ -188,33 +187,33 @@ const Image_BG_13 = () => {
       </div>
     </>
   );
-}
+};
 const Image_BG_14 = () => {
   return (
     <>
       <div className="flex justify-center items-center relative h-32 lg:h-64 w-56 lg:w-60 ">
-      <Image
-        className="relative inset-0 h-auto w-32 lg:w-48 object-cover"
-        src={BG_14}
-        alt="bg_01"
-      />
-    </div>
+        <Image
+          className="relative inset-0 h-auto w-32 lg:w-48 object-cover"
+          src={BG_14}
+          alt="bg_01"
+        />
+      </div>
     </>
   );
-}
+};
 const Image_BG_15 = () => {
   return (
     <>
       <div className="flex justify-center items-center relative h-32 lg:h-64 w-56 lg:w-60 ">
-      <Image
-        className="relative inset-0 h-auto w-32 lg:w-48 object-cover"
-        src={BG_15}
-        alt="bg_01"
-      />
-    </div>
+        <Image
+          className="relative inset-0 h-auto w-32 lg:w-48 object-cover"
+          src={BG_15}
+          alt="bg_01"
+        />
+      </div>
     </>
   );
-}
+};
 
 const IMAGES = [
   <Image_BG_01 />,
@@ -237,21 +236,26 @@ const IMAGES = [
 export const InfiniteSlider = () => {
   return (
     <>
-      <div className="relative mx-auto w-11/12 overflow-hidden bg-white before:absolute before:left-0 before:top-0 before:z-[2] before:h-full before:w-[100px] before:bg-[linear-gradient(to_right,white_0%,rgba(255,255,255,0)_100%)] before:content-[''] after:absolute after:right-0 after:top-0 after:z-[2] after:h-full after:w-[100px] after:-scale-x-100 after:bg-[linear-gradient(to_right,white_0%,rgba(255,255,255,0)_100%)] after:content-['']">
-        <div className="animate-infinite-slider flex w-[calc(250px*10)]">
-          {IMAGES.map((logo, index) => (
-            <div className="slide flex items-center justify-center" key={index}>
-              {logo}
-            </div>
-          ))}
-          {IMAGES.map((logo, index) => (
-            <div
-              className="slide flex w-full items-center justify-center text-black"
-              key={index}
-            >
-              {logo}
-            </div>
-          ))}
+      <div className="w-full w-max-screen">
+        <div className="relative mx-auto w-11/12 overflow-hidden bg-white before:absolute before:left-0 before:top-0 before:z-[2] before:h-full before:w-[100px] before:bg-[linear-gradient(to_right,white_0%,rgba(255,255,255,0)_100%)] before:content-[''] after:absolute after:right-0 after:top-0 after:z-[2] after:h-full after:w-[100px] after:-scale-x-100 after:bg-[linear-gradient(to_right,white_0%,rgba(255,255,255,0)_100%)] after:content-['']">
+          <div className="animate-infinite-slider flex w-[calc(250px*10)]">
+            {IMAGES.map((logo, index) => (
+              <div
+                className="slide flex items-center justify-center"
+                key={index}
+              >
+                {logo}
+              </div>
+            ))}
+            {IMAGES.map((logo, index) => (
+              <div
+                className="slide flex w-full items-center justify-center text-black"
+                key={index}
+              >
+                {logo}
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </>
@@ -260,21 +264,26 @@ export const InfiniteSlider = () => {
 export const InfiniteSlider2 = () => {
   return (
     <>
-      <div className="relative mx-auto w-11/12 overflow-hidden bg-white before:absolute before:left-0 before:top-0 before:z-[2] before:h-full before:w-[100px] before:bg-[linear-gradient(to_right,white_0%,rgba(255,255,255,0)_100%)] before:content-[''] after:absolute after:right-0 after:top-0 after:z-[2] after:h-full after:w-[100px] after:-scale-x-100 after:bg-[linear-gradient(to_right,white_0%,rgba(255,255,255,0)_100%)] after:content-['']">
-        <div className="animate-infinite-slider2 flex w-[calc(250px*10)]">
-          {IMAGES.map((logo, index) => (
-            <div className="slide flex items-center justify-center" key={index}>
-              {logo}
-            </div>
-          ))}
-          {IMAGES.map((logo, index) => (
-            <div
-              className="slide flex w-full items-center justify-center text-black"
-              key={index}
-            >
-              {logo}
-            </div>
-          ))}
+      <div className="w-full w-max-screen">
+        <div className="relative mx-auto w-11/12 overflow-hidden bg-white before:absolute before:left-0 before:top-0 before:z-[2] before:h-full before:w-[100px] before:bg-[linear-gradient(to_right,white_0%,rgba(255,255,255,0)_100%)] before:content-[''] after:absolute after:right-0 after:top-0 after:z-[2] after:h-full after:w-[100px] after:-scale-x-100 after:bg-[linear-gradient(to_right,white_0%,rgba(255,255,255,0)_100%)] after:content-['']">
+          <div className="animate-infinite-slider2 flex w-[calc(250px*10)]">
+            {IMAGES.map((logo, index) => (
+              <div
+                className="slide flex items-center justify-center"
+                key={index}
+              >
+                {logo}
+              </div>
+            ))}
+            {IMAGES.map((logo, index) => (
+              <div
+                className="slide flex w-full items-center justify-center text-black"
+                key={index}
+              >
+                {logo}
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </>
