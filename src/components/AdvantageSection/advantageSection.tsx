@@ -40,7 +40,7 @@ const features = [
 const AdvantageSection = () => {
   return (
     <>
-      <div className="py-24 lg:pt-24 lg:pb-0 bg-white">
+      <div className="px-2 sm:px-12 md:px-16 lg:px-20 py-24 lg:pt-24 lg:pb-0 bg-white">
         <div
           className="flex relative h-full lg:h-screen my-0 bg-white sm:py-0"
           id="beneficios"
