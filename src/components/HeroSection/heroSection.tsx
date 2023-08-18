@@ -33,21 +33,20 @@ const HeroSection = () => {
           <div className="px-6 sm:px-12 md:px-16 lg:px-20 relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 md:pl-4 md:max-w-screen-xl">
             <Navbar></Navbar>
             <div className="mb-16 md:my-40 md:max-w-md md:pr-5">
-              <h2 className="text-justify whitespacec mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-                Lorem ipsum dolor sit
+              <h2 className="text-left lg:text-justify mb-5 font-sans text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl ">
+                Nossos trabalhos alcançam resultados que excedem
+                <span> suas </span>
                 <br className="hidden md:block" />
-                can imagine{" "}
-                <span className="inline-block text-blue-400">is real</span>
+                <span className="inline-block text-blue-600">expectativas</span>
               </h2>
               <p className="text-justify pr-5 mb-5 text-base text-gray-700 md:text-md">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque
-                quae. explicabo.
+                Entre em contato para um orçamento. Estamos à sua disposição
+                para esclarecer qualquer dúvida.
               </p>
               <div className="flex items-center">
                 <a
                   href="https://wa.me/5588993368262?text=Ol%C3%A1%21+Vi+seu+n%C3%BAmero+pelo+site.+Gostaria+de+mais+informa%C3%A7%C3%B5es+sobre+os+servi%C3%A7os."
-                  className="inline-flex items-center justify-center h-12 px-4 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-blue-700 hover:bg-blue-800 focus:shadow-outline focus:outline-none"
+                  className="inline-flex items-center justify-center h-12 px-4  font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-blue-700 hover:bg-blue-800 focus:shadow-outline focus:outline-none"
                 >
                   Entrar em contato
                 </a>
