@@ -6,7 +6,7 @@ type ContainerProps = {
 
 const Container = (props: ContainerProps) => {
   return (
-    <div className="">
+    <div className="py-24 px-8 sm:px-12 md:px-16 lg:px-20">
       {props.children}
     </div>
   );
