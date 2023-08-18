@@ -293,14 +293,16 @@ export const InfiniteSlider2 = () => {
 const TestimonialsSection = () => {
   return (
     <>
-      <div className="container mx-auto">
-        <div className="flex relative flex-row w-full w-max-full">
-          <InfiniteSlider />
+      <div id="clientes">
+        <div className="container mx-auto">
+          <div className="flex relative flex-row w-full w-max-full">
+            <InfiniteSlider />
+          </div>
         </div>
-      </div>
-      <div className="container mx-auto">
-        <div className="flex relative flex-row w-full w-max-full">
-          <InfiniteSlider2 />
+        <div className="container mx-auto">
+          <div className="flex relative flex-row w-full w-max-full">
+            <InfiniteSlider2 />
+          </div>
         </div>
       </div>
     </>

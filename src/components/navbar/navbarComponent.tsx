@@ -50,7 +50,6 @@ const Navbar = () => {
         className={`flex items-center w-full lg:bg-gradient-to-r lg:from-blue-200 lg:via-blue-200 lg:to-transparent`}
       >
         <div className="w-full w-max-full">
-          {/* <div className="container w-full w-max-full"> */}
           <div className="relative flex items-center justify-between px-0">
             <div className="max-w-full px-0 w-60">
               <a href="/#" className="flex w-2/3 py-2 px-0">
@@ -60,13 +59,11 @@ const Navbar = () => {
             <div className="flex items-center px-0">
               <div>
                 <button
-                  // @click="navbarOpen = !navbarOpen"
-                  // onClick={() => handleClick()}
                   onClick={() => handleClick()}
                   id="navbarToggler"
                   className={` ${
                     open && "navbarTogglerActive"
-                  } absolute right-0 top-1/2 block -translate-y-1/2 px-0 py-0 lg:px-0 ring-primary focus:ring-2 lg:hidden`}
+                  } absolute right-0 top-1/2 block -translate-y-1/2 px-0 py-0 lg:px-0 lg:hidden`}
                 >
                   {features.map((feature) => (
                     <feature.icon
@@ -74,9 +71,6 @@ const Navbar = () => {
                       aria-hidden="true"
                     />
                   ))}
-                  {/* <span className="relative my-[6px] block h-[2px] w-[25px] bg-[#000]"></span>
-                  <span className="relative my-[6px] block h-[2px] w-[25px] bg-[#000]"></span>
-                  <span className="relative my-[6px] block h-[2px] w-[25px] bg-[#000]"></span> */}
                 </button>
                 <nav
                   // :className="!navbarOpen && 'hidden' "
@@ -86,35 +80,26 @@ const Navbar = () => {
                   } `}
                 >
                   <ul className="block lg:flex lg:relative ">
-                    <ListItem
-                      navItemStyles="text-dark hover:text-primary"
+                    {/* <ListItem
+                      navItemStyles=""
                       NavLink="#inicio"
                     >
                       Início
-                    </ListItem>
-                    <ListItem
-                      navItemStyles="text-dark hover:text-primary"
-                      NavLink="#beneficios"
-                    >
+                    </ListItem> */}
+                    <ListItem navItemStyles="" NavLink="#beneficios">
                       Benefícios
                     </ListItem>
-                    <ListItem
-                      navItemStyles="text-dark hover:text-primary"
-                      NavLink="sobre"
-                    >
+                    <ListItem navItemStyles="" NavLink="#sobre">
                       Quem somos
                     </ListItem>
-                    <ListItem
-                      navItemStyles="text-dark hover:text-primary"
+                    {/* <ListItem
+                      navItemStyles=""
                       NavLink="serviços"
                     >
                       Serviços
-                    </ListItem>
-                    <ListItem
-                      navItemStyles="text-dark hover:text-primary"
-                      NavLink="depoimentos"
-                    >
-                      Depoimentos
+                    </ListItem> */}
+                    <ListItem navItemStyles="" NavLink="#clientes">
+                      Clientes
                     </ListItem>
                   </ul>
                 </nav>
@@ -146,7 +131,7 @@ const ListItem: FC<Props> = ({
       <a
         {...props}
         href={NavLink}
-        className={`hover:text-blue-700 text-gray-900 flex py-2 text-base font-bold lg:mx-4 lg:flex lg:justify-between lg:bg-gradient-to-r lg:from-blue-100 lg:via-blue-200 lg:to-blue-100 lg:bg-[length:50%_4px] lg:hover:bg-[length:100%_4px] lg:rounded-full lg:bg-no-repeat lg:bg-bottom duration-150 ${navItemStyles}`}
+        className={`hover:text-blue-600 text-gray-900 lg:text-black flex py-2 text-base font-bold lg:mx-4 lg:flex lg:justify-between lg:bg-gradient-to-r lg:from-blue-100 lg:via-blue-200 lg:to-blue-100 lg:bg-[length:50%_4px] lg:hover:bg-[length:100%_4px] lg:rounded-full lg:bg-no-repeat lg:bg-bottom duration-150 ${navItemStyles}`}
       >
         {children}
       </a>

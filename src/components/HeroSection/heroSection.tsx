@@ -33,13 +33,13 @@ const HeroSection = () => {
           <div className="px-6 sm:px-12 md:px-16 lg:px-20 relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 md:pl-4 md:max-w-screen-xl">
             <Navbar></Navbar>
             <div className="mb-16 md:my-40 md:max-w-md md:pr-5">
-              <h2 className="mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+              <h2 className="text-justify whitespacec mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
                 Lorem ipsum dolor sit
                 <br className="hidden md:block" />
                 can imagine{" "}
                 <span className="inline-block text-blue-400">is real</span>
               </h2>
-              <p className="pr-5 mb-5 text-base text-gray-700 md:text-md">
+              <p className="text-justify pr-5 mb-5 text-base text-gray-700 md:text-md">
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                 accusantium doloremque laudantium, totam rem aperiam, eaque
                 quae. explicabo.
