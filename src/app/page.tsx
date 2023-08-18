@@ -3,6 +3,7 @@ import AdvantageSection from "@/components/AdvantageSection/advantageSection";
 import AboutSection from "@/components/AboutSection/aboutSection";
 import DividerComponent from "@/components/Dividers/dividerComponent";
 import TestimonialsSection from "@/components/Testimonials/testimonialsSection";
+import Footer from "@/components/Footer/footer";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <DividerComponent></DividerComponent>
       <TestimonialsSection></TestimonialsSection>
       <DividerComponent></DividerComponent>
+      <Footer></Footer>
     </>
   );
 }
