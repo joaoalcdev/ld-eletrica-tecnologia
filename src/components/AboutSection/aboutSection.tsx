@@ -12,11 +12,11 @@ const AboutSection = () => {
               <h2 className="mb-4 text-2xl tracking-tight font-extrabold text-black">
                 LD Elétrica e Tecnologia
               </h2>
-              <p className="mb-4">
+              <p className="mb-4 text-justify">
                 Somos especializados em fornecer serviços de elétrica e
                 tecnologia de alta qualidade que atendem às suas necessidades.
               </p>
-              <p>
+              <p className="text-justify">
                 Com nossos profissionais qualificados e anos de experiência,
                 estamos comprometidos em oferecer excelência em cada projeto que
                 realizamos.
