@@ -40,3 +40,11 @@
     @apply scroll-smooth;
   }
 }
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown_sub:hover .dropdown_sub-menu {
+  display: block;
+}

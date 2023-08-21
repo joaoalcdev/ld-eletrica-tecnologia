@@ -86,8 +86,84 @@ const Navbar = () => {
                     <ListItem navItemStyles="" NavLink="#sobre">
                       Quem somos
                     </ListItem>
-                    <ListItem navItemStyles="" NavLink="#serviços">
-                      Serviços
+                    <ListItem
+                      navItemStyles="dropdown inline-block relative"
+                      NavLink="#serviços"
+                    >
+                      <div>
+                        <button className="font-semibold rounded inline-flex items-center">
+                          <span className="mr-1">Serviços</span>
+                          <svg
+                            className="fill-current h-4 w-4"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 20 20"
+                          >
+                            <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />{" "}
+                          </svg>
+                        </button>
+                        <ul className="b-none b-0 text-center whitespace-nowrap rounded-md bg-blue-200 dropdown-menu absolute hidden py-4">
+                          <li className="flex text-center justify-center items-center py-2">
+                            <ListItem navItemStyles="" NavLink="#clientes">
+                              Câmeras de Segurança
+                            </ListItem>
+                          </li>
+                          <li className="flex text-center justify-center items-center py-2">
+                            <ListItem
+                              navItemStyles="dropdown_sub inline-block relative"
+                              NavLink="#clientes"
+                            >
+                              <div>
+                                <button className="font-semibold rounded inline-flex items-center">
+                                  <span className="mr-1">Cercas</span>
+                                  <svg
+                                    className="hover:fill-current h-4 w-4"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 20 20"
+                                  >
+                                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />{" "}
+                                  </svg>
+                                </button>
+                                <ul className="b-none b-0 text-center whitespace-nowrap rounded-md bg-blue-200 dropdown_sub-menu absolute hidden py-4">
+                                  <li className="flex text-center justify-center items-center py-2">
+                                    <ListItem
+                                      navItemStyles=""
+                                      NavLink="#clientes"
+                                    >
+                                      Cercas Elétricas
+                                    </ListItem>
+                                  </li>
+                                  <li className="flex text-center justify-center items-center py-2">
+                                    <ListItem
+                                      navItemStyles=""
+                                      NavLink="#clientes"
+                                    >
+                                      Cercas Prediais
+                                    </ListItem>
+                                  </li>
+                                  <li className="flex text-center justify-center items-center py-2">
+                                    <ListItem
+                                      navItemStyles=""
+                                      NavLink="#clientes"
+                                    >
+                                      Cercas Industriais
+                                    </ListItem>
+                                  </li>
+                                </ul>
+                              </div>
+                            </ListItem>
+                          </li>
+                          <li className="flex text-center justify-center items-center py-2">
+                            <ListItem navItemStyles="" NavLink="#clientes">
+                              Motores
+                            </ListItem>
+                          </li>
+                          <li className="flex text-center justify-center items-center py-2">
+                            <ListItem navItemStyles="" NavLink="#clientes">
+                              Ar Condicionado
+                            </ListItem>
+                          </li>
+                        </ul>
+                      </div>
                     </ListItem>
                     <ListItem navItemStyles="" NavLink="#clientes">
                       Clientes
