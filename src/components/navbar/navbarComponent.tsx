@@ -110,11 +110,11 @@ const Navbar = () => {
                           <li className="flex text-center justify-center items-center py-2">
                             <ListItem
                               navItemStyles="dropdown_sub inline-block relative"
-                              NavLink="#clientes"
+                              NavLink="#"
                             >
                               <div>
                                 <button className="font-semibold rounded inline-flex items-center">
-                                  <span className="mr-1">Cercas</span>
+                                  <span className="font-bold mr-1">Cercas</span>
                                   <svg
                                     className="hover:fill-current h-4 w-4"
                                     xmlns="http://www.w3.org/2000/svg"
@@ -123,12 +123,9 @@ const Navbar = () => {
                                     <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />{" "}
                                   </svg>
                                 </button>
-                                <ul className="b-none b-0 text-center whitespace-nowrap rounded-md bg-blue-200 dropdown_sub-menu absolute hidden py-4">
+                                <ul className="b-none b-0 text-center whitespace-nowrap rounded-md bg-blue-300 dropdown_sub-menu absolute hidden py-4">
                                   <li className="flex text-center justify-center items-center py-2">
-                                    <ListItem
-                                      navItemStyles=""
-                                      NavLink="#clientes"
-                                    >
+                                    <ListItem navItemStyles="" NavLink="#">
                                       Cercas Elétricas
                                     </ListItem>
                                   </li>
@@ -137,15 +134,7 @@ const Navbar = () => {
                                       navItemStyles=""
                                       NavLink="#clientes"
                                     >
-                                      Cercas Prediais
-                                    </ListItem>
-                                  </li>
-                                  <li className="flex text-center justify-center items-center py-2">
-                                    <ListItem
-                                      navItemStyles=""
-                                      NavLink="#clientes"
-                                    >
-                                      Cercas Industriais
+                                      Cercas Concertinas
                                     </ListItem>
                                   </li>
                                 </ul>
