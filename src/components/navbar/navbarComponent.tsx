@@ -16,8 +16,6 @@ const features = [
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
-  // create a function to handle the click event on the button
-  // when the button is clicked, the state for the menu will be updated to the opposite of what it was, if it was open, it will be closed and vice versa
   const handleClick = () => {
     setOpen(!open);
   };
@@ -73,31 +71,24 @@ const Navbar = () => {
                   ))}
                 </button>
                 <nav
-                  // :className="!navbarOpen && 'hidden' "
                   id="navbarCollapse"
                   className={`absolute right-0 top-full w-full bg-blue-300 lg:bg-transparent max-w-[250px] rounded-lg py-5 px-6 shadow lg:px-0 lg:relative lg:flex lg:w-full lg:max-w-full lg:shadow-none ${
                     !open && "hidden"
                   } `}
                 >
                   <ul className="block lg:flex lg:relative ">
-                    {/* <ListItem
-                      navItemStyles=""
-                      NavLink="#inicio"
-                    >
+                    <ListItem navItemStyles="" NavLink="#inicio">
                       Início
-                    </ListItem> */}
+                    </ListItem>
                     <ListItem navItemStyles="" NavLink="#beneficios">
                       Benefícios
                     </ListItem>
                     <ListItem navItemStyles="" NavLink="#sobre">
                       Quem somos
                     </ListItem>
-                    {/* <ListItem
-                      navItemStyles=""
-                      NavLink="serviços"
-                    >
+                    <ListItem navItemStyles="" NavLink="#serviços">
                       Serviços
-                    </ListItem> */}
+                    </ListItem>
                     <ListItem navItemStyles="" NavLink="#clientes">
                       Clientes
                     </ListItem>
