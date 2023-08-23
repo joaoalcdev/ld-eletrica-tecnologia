@@ -8,7 +8,7 @@ const newColorSvg = "#ebf8ee";
 const ImageHero = require("/public/images/background_image.jpg");
 
 import Navbar from "../navbar/navbarComponent";
-import DividerComponent from "../Dividers/dividerComponent";
+import ButtonCTA from "../ButtonCTA/Button";
 
 const HeroSection = () => {
   return (
@@ -43,14 +43,7 @@ const HeroSection = () => {
                 Entre em contato para um orçamento. Estamos à sua disposição
                 para esclarecer qualquer dúvida.
               </p>
-              <div className="flex items-center">
-                <a
-                  href="https://wa.me/5588993368262?text=Ol%C3%A1%21+Vi+seu+n%C3%BAmero+pelo+site.+Gostaria+de+mais+informa%C3%A7%C3%B5es+sobre+os+servi%C3%A7os."
-                  className="inline-flex items-center justify-center h-12 px-4  font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-blue-700 hover:bg-blue-800 focus:shadow-outline focus:outline-none"
-                >
-                  Entrar em contato
-                </a>
-              </div>
+              <ButtonCTA></ButtonCTA>
             </div>
           </div>
         </div>

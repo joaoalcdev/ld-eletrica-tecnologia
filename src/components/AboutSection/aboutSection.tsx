@@ -2,6 +2,8 @@
 import React from "react";
 import Image from "next/image";
 
+import ButtonCTA from "../ButtonCTA/Button";
+
 const AboutSection = () => {
   return (
     <>
@@ -21,12 +23,7 @@ const AboutSection = () => {
                 estamos comprometidos em oferecer excelência em cada projeto que
                 realizamos.
               </p>
-              <a
-                href="https://wa.me/5588993368262?text=Ol%C3%A1%21+Vi+seu+n%C3%BAmero+pelo+site.+Gostaria+de+mais+informa%C3%A7%C3%B5es+sobre+os+servi%C3%A7os."
-                className="inline-flex items-center justify-center h-12 px-4 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-blue-700 hover:bg-blue-800 focus:shadow-outline focus:outline-none"
-              >
-                Solicitar serviços
-              </a>
+              <ButtonCTA></ButtonCTA>
             </div>
             <div className="grid grid-cols-2 gap-4 mt-8">
               <Image
