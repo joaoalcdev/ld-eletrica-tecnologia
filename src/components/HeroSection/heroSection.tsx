@@ -7,7 +7,7 @@ const current = "currentColor";
 const newColorSvg = "#ebf8ee";
 const ImageHero = require("/public/images/background_image.jpg");
 
-import Navbar from "../Navbar/navbarComponent";
+import Navbar from "../navbar/navbarComponent";
 import ButtonCTA from "../ButtonCTA/Button";
 
 const HeroSection = () => {
