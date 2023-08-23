@@ -8,7 +8,8 @@ import {
   BoltIcon,
   ShieldCheckIcon,
 } from "@heroicons/react/24/outline";
-import DividerComponent from "../Dividers/dividerComponent";
+
+import ButtonCTA from "../ButtonCTA/Button";
 
 const features = [
   {
@@ -81,6 +82,9 @@ const AdvantageSection = () => {
                   </div>
                 ))}
               </dl>
+              <div className="mt-12 flex w-full justify-center items-center">
+                <ButtonCTA></ButtonCTA>
+              </div>
             </div>
           </div>
         </div>
