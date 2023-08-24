@@ -6,6 +6,8 @@ import CamerasSection from "@/components/ServicesComponents/CamerasSection";
 import CercasSection from "@/components/ServicesComponents/CercasSection";
 import MotoresSection from "@/components/ServicesComponents/MotoresSection";
 import ArCondicionadoSection from "@/components/ServicesComponents/ArCondicionadoSection";
+import CasaInteligenteSection from "@/components/ServicesComponents/CasaInteligenteSection";
+import EletricasSection from "@/components/ServicesComponents/EletricasSection";
 import Footer from "@/components/Footer/footer";
 
 export default function Page() {
@@ -20,6 +22,10 @@ export default function Page() {
       <MotoresSection></MotoresSection>
       <DividerComponent></DividerComponent>
       <ArCondicionadoSection></ArCondicionadoSection>
+      <DividerComponent></DividerComponent>
+      <CasaInteligenteSection></CasaInteligenteSection>
+      <DividerComponent></DividerComponent>
+      <EletricasSection></EletricasSection>
       <DividerComponent></DividerComponent>
       <Footer></Footer>
     </>
