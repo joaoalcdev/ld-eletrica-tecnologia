@@ -15,15 +15,10 @@ const Footer = () => {
           <div className="md:flex md:justify-between">
             <div className="mx-auto md:mx-0 my-6 md:mb-0">
               <a
-                href="https://ldeletricaetecnologia.com.br/"
-                target="_blank"
+                href="#"
                 className="flex md:block justify-center md:justify-start items-center"
               >
-                <Image
-                  src={LogoLD}
-                  className="h-16 w-auto"
-                  alt="FlowBite Logo"
-                />
+                <Image src={LogoLD} className="h-16 w-auto" alt="Logo" />
               </a>
             </div>
             <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3"></div>
