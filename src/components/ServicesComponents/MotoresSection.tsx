@@ -32,7 +32,7 @@ const MotoresSection = () => {
               who share your interests. Connecting with your friends and family
               as well as discovering new ones is easy with features like Groups.
             </p>
-            <div className="flex justify-center items-center md:justify-start">
+            <div className="py-8 md:py-0 flex justify-center items-center md:justify-start">
               <ButtonCTA></ButtonCTA>
             </div>
           </div>

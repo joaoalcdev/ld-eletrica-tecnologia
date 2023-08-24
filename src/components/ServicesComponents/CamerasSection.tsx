@@ -34,7 +34,7 @@ const CameraSection = () => {
           />
           <div className="mt-4 md:mt-0">
             <div className="inline-flex w-full justify-center md:justify-start items-center text-left">
-              <h1 className="mb-4 text-4xl tracking-tight font-extrabold text-blue-200 dark:text-blue-300">
+              <h1 className="mb-4 text-center md:text-left text-4xl tracking-tight font-extrabold text-blue-200 dark:text-blue-300">
                 Câmeras de Seguranças
               </h1>
             </div>
