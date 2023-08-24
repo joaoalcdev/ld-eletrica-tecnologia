@@ -14,6 +14,8 @@ const navigation = [
   { name: "Cercas", href: "#CercasSection" },
   { name: "Motores", href: "#MotoresSection" },
   { name: "Ar Condicionado", href: "#ArCondicionadoSection" },
+  { name: "Casa Inteligente", href: "#CasaInteligenteSection" },
+  { name: "Elétricas", href: "#EletricasSection" },
 ];
 
 const Logo = require("/public/images/logo.svg");
