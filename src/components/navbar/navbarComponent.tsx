@@ -156,14 +156,73 @@ const Navbar = () => {
                             </div>
                           </li>
                           <li className="flex text-center justify-center items-center py-2">
-                            <ListItem navItemStyles="" NavLink="/service#MotoresSection">
+                            <ListItem
+                              navItemStyles=""
+                              NavLink="/service#MotoresSection"
+                            >
                               Motores
                             </ListItem>
                           </li>
                           <li className="flex text-center justify-center items-center py-2">
-                            <ListItem navItemStyles="" NavLink="/service#ArCondicionadoSection">
+                            <ListItem
+                              navItemStyles=""
+                              NavLink="/service#ArCondicionadoSection"
+                            >
                               Ar Condicionado
                             </ListItem>
+                          </li>
+                          <li className="flex text-center justify-center items-center py-2">
+                            <ListItem
+                              navItemStyles=""
+                              NavLink="/service#CasaInteligenteSection"
+                            >
+                              Casa Inteligente
+                            </ListItem>
+                          </li>
+                          <li className="flex text-center justify-center items-center">
+                            <div className="dropdown_sub inline-block relative">
+                              <div>
+                                <button className="font-semibold rounded inline-flex items-center">
+                                  <li className="flex text-center justify-center items-center py-2">
+                                    <ListItem
+                                      navItemStyles="hover:text-blue-600 flex items-center justify-center"
+                                      NavLink="/service#EletricasSection"
+                                    >
+                                      <button className="font-bold rounded inline-flex items-center">
+                                        <span className="rotate-0 hover:rotate-0 mr-1">
+                                          Elétricas
+                                        </span>
+                                        <svg
+                                          className="hover:rotate-180 fill-current h-4 w-4"
+                                          xmlns="http://www.w3.org/2000/svg"
+                                          viewBox="0 0 20 20"
+                                        >
+                                          <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />{" "}
+                                        </svg>
+                                      </button>
+                                    </ListItem>
+                                  </li>
+                                </button>
+                                <ul className="b-none b-0 text-center whitespace-nowrap rounded-md bg-blue-300 dropdown_sub-menu absolute hidden py-4">
+                                  <li className="flex text-center justify-center items-center py-2">
+                                    <ListItem
+                                      navItemStyles=""
+                                      NavLink="/service#EletricaPredial"
+                                    >
+                                      Elétrica Predial
+                                    </ListItem>
+                                  </li>
+                                  <li className="flex text-center justify-center items-center py-2">
+                                    <ListItem
+                                      navItemStyles=""
+                                      NavLink="/service#EletricaIndustrial"
+                                    >
+                                      Elétrica Industrial
+                                    </ListItem>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
                           </li>
                         </ul>
                       </div>
