@@ -21,7 +21,35 @@ const navigation = [
 const Logo = require("/public/images/logo.svg");
 
 export default function HeroSection() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  // const [open, setOpen] = useState(false);
+  // close the mobile menu when you click on a link
+  const [open, setOpen] = useState(false);
+  const handleClick = () => {
+    setOpen(!open);
+  };
+  if (open) {
+    document.addEventListener("focus", (e) => {
+      const navbarToggler = document.getElementById("navbarToggler");
+      const navbarCollapse = document.getElementById("navbarCollapse");
+      if (e.target !== navbarToggler && e.target !== navbarCollapse) {
+        setOpen(false);
+      }
+    });
+    document.addEventListener("scroll", () => {
+      setOpen(false);
+    });
+    document.querySelectorAll("a").forEach((item) => {
+      item.addEventListener("click", () => {
+        setOpen(false);
+      });
+    });
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Esc" || e.key === "Escape") {
+        setOpen(false);
+      }
+    });
+  }
+
   return (
     <>
       <div className="bg-white">
@@ -46,7 +74,7 @@ export default function HeroSection() {
               <button
                 type="button"
                 className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
-                onClick={() => setMobileMenuOpen(true)}
+                onClick={() => setOpen(true)}
               >
                 <span className="sr-only">Open main menu</span>
                 <Bars3Icon className="h-6 w-6" aria-hidden="true" />
@@ -72,12 +100,7 @@ export default function HeroSection() {
               </a>
             </div>
           </nav>
-          <Dialog
-            as="div"
-            className="lg:hidden"
-            open={mobileMenuOpen}
-            onClose={setMobileMenuOpen}
-          >
+          <Dialog as="div" className="lg:hidden" open={open} onClose={setOpen}>
             <div className="fixed inset-0 z-50" />
             <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
               <div className="flex items-center justify-between">
@@ -94,7 +117,7 @@ export default function HeroSection() {
                 <button
                   type="button"
                   className="-m-2.5 rounded-md p-2.5 text-gray-700"
-                  onClick={() => setMobileMenuOpen(false)}
+                  onClick={() => handleClick()}
                 >
                   <span className="sr-only">Close menu</span>
                   <XMarkIcon className="h-6 w-6" aria-hidden="true" />
