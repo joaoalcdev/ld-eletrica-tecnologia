@@ -88,7 +88,7 @@ const Navbar = () => {
                     </ListItem>
                     <ListItem
                       navItemStyles="dropdown inline-block relative"
-                      NavLink="#serviços"
+                      NavLink="service"
                     >
                       <div>
                         <button className="font-semibold rounded inline-flex items-center">
@@ -103,7 +103,7 @@ const Navbar = () => {
                         </button>
                         <ul className="b-none b-0 text-center whitespace-nowrap rounded-md bg-blue-200 dropdown-menu absolute hidden py-4">
                           <li className="flex text-center justify-center items-center py-2">
-                            <ListItem navItemStyles="" NavLink="#clientes">
+                            <ListItem navItemStyles="" NavLink="/service#CameraSection">
                               Câmeras de Segurança
                             </ListItem>
                           </li>
