@@ -32,7 +32,7 @@ const CercasSection = () => {
               who share your interests. Connecting with your friends and family
               as well as discovering new ones is easy with features like Groups.
             </p>
-            <div className="flex justify-center items-center md:justify-start">
+            <div className="py-8 md:py-0 flex justify-center items-center md:justify-start">
               <ButtonCTA></ButtonCTA>
             </div>
           </div>
@@ -69,7 +69,7 @@ const CercasSection = () => {
           />
           <div className="mt-4 md:mt-0">
             <div className="inline-flex w-full justify-center md:justify-start items-center text-left">
-              <h1 className="mb-4 text-4xl tracking-tight font-extrabold text-blue-200 dark:text-blue-300">
+              <h1 className="text-center md:text-left mb-4 text-4xl tracking-tight font-extrabold text-blue-200 dark:text-blue-300">
                 Cercas Concertinas
               </h1>
             </div>
