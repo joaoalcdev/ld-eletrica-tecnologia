@@ -11,9 +11,9 @@ import React from "react";
 const navigation = [
   { name: "Início", href: "/" },
   { name: "Câmeras de Segurança", href: "#CameraSection" },
-  { name: "Cercas", href: "#" },
-  { name: "Motores", href: "#" },
-  { name: "Ar Condicionado", href: "#" },
+  { name: "Cercas", href: "#CercasSection" },
+  { name: "Motores", href: "#MotoresSection" },
+  { name: "Ar Condicionado", href: "#ArCondicionadoSection" },
 ];
 
 const Logo = require("/public/images/logo.svg");

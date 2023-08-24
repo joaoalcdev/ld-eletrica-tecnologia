@@ -10,7 +10,7 @@ const CercasSection = () => {
     <>
       <section
         className="pt-20 pb-16 bg-white dark:bg-gray-900"
-        id="CameraSection"
+        id="CercasSection"
       >
         <div className="inline-flex w-full justify-center items-center text-center">
           <h1 className="mb-4 text-center text-4xl tracking-tight font-extrabold text-blue-200 dark:text-blue-300">
