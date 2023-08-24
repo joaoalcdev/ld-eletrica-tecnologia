@@ -103,7 +103,10 @@ const Navbar = () => {
                         </button>
                         <ul className="b-none b-0 text-center whitespace-nowrap rounded-md bg-blue-200 dropdown-menu absolute hidden py-4">
                           <li className="flex text-center justify-center items-center py-2">
-                            <ListItem navItemStyles="" NavLink="/service#CameraSection">
+                            <ListItem
+                              navItemStyles=""
+                              NavLink="/service#CameraSection"
+                            >
                               Câmeras de Segurança
                             </ListItem>
                           </li>
@@ -114,7 +117,7 @@ const Navbar = () => {
                                   <li className="flex text-center justify-center items-center py-2">
                                     <ListItem
                                       navItemStyles="hover:text-blue-600 flex items-center justify-center"
-                                      NavLink="#"
+                                      NavLink="/service#CercasSection"
                                     >
                                       <button className="font-bold rounded inline-flex items-center">
                                         <span className="rotate-0 hover:rotate-0 mr-1">
@@ -133,14 +136,17 @@ const Navbar = () => {
                                 </button>
                                 <ul className="b-none b-0 text-center whitespace-nowrap rounded-md bg-blue-300 dropdown_sub-menu absolute hidden py-4">
                                   <li className="flex text-center justify-center items-center py-2">
-                                    <ListItem navItemStyles="" NavLink="#">
+                                    <ListItem
+                                      navItemStyles=""
+                                      NavLink="/service#CercasEletricas"
+                                    >
                                       Cercas Elétricas
                                     </ListItem>
                                   </li>
                                   <li className="flex text-center justify-center items-center py-2">
                                     <ListItem
                                       navItemStyles=""
-                                      NavLink="#clientes"
+                                      NavLink="/service#CercasConcertinas"
                                     >
                                       Cercas Concertinas
                                     </ListItem>
@@ -150,12 +156,12 @@ const Navbar = () => {
                             </div>
                           </li>
                           <li className="flex text-center justify-center items-center py-2">
-                            <ListItem navItemStyles="" NavLink="#clientes">
+                            <ListItem navItemStyles="" NavLink="/service#MotoresSection">
                               Motores
                             </ListItem>
                           </li>
                           <li className="flex text-center justify-center items-center py-2">
-                            <ListItem navItemStyles="" NavLink="#clientes">
+                            <ListItem navItemStyles="" NavLink="/service#ArCondicionadoSection">
                               Ar Condicionado
                             </ListItem>
                           </li>

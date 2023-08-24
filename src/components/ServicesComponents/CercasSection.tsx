@@ -17,7 +17,7 @@ const CercasSection = () => {
             Cercas
           </h1>
         </div>
-        <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+        <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6"  id="CercasEletricas">
           <div className="mt-4 md:mt-0">
             <div className="inline-flex w-full justify-center md:justify-start items-center text-left">
               <h1 className="mb-4 text-4xl tracking-tight font-extrabold text-blue-200 dark:text-blue-300">
@@ -52,7 +52,7 @@ const CercasSection = () => {
           />
         </div>
         {/* cercas concertinas */}
-        <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+        <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6"  id="CercasConcertinas">
           <Image
             width={100}
             height={100}
