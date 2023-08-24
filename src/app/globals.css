@@ -48,3 +48,7 @@
 .dropdown_sub:hover .dropdown_sub-menu {
   display: block;
 }
+
+li {
+  list-style: none;
+}
