@@ -18,37 +18,37 @@ import DividerComponent from "../Dividers/dividerComponent";
 
 const features = [
   {
-    name: "Nome 01",
+    name: "Motor de Portão Avançado: Potência, Durabilidade e Conveniência",
     description:
       "Desenvolvido com tecnologia de ponta e materiais de alta qualidade, nosso motor de portão é potente, durável e silencioso. Com ele, você poderá abrir e fechar seu portão com o simples toque de um botão, proporcionando uma experiência tranquila e conveniente.",
     icon: HandThumbUpIcon,
   },
   {
-    name: "Nome 02",
+    name: "Motor de Portão com Iluminação LED de Segurança Integrada",
     description:
       "Pensando na sua segurança, o motor de portão conta com recursos avançados, como o sistema de lâmpada de LED integrada. Além de iluminar a área durante a noite, essa funcionalidade oferece maior visibilidade, inibindo possíveis invasões.",
     icon: ShieldCheckIcon,
   },
   {
-    name: "Nome 03",
+    name: "Motor de Portão Inteligente: Controle Remoto e Monitoramento Via Smartphone",
     description:
       "E não para por aí! Nosso motor de portão também é compatível com tecnologia de automação residencial, permitindo que você controle o acesso ao seu imóvel de qualquer lugar, através do seu smartphone. Abra e feche o portão remotamente, monitore quem entra e sai e agende horários de acesso, tudo de forma prática e segura.",
     icon: CheckBadgeIcon,
   },
   {
-    name: "Nome 04",
+    name: "Instalação e Manutenção de Motores de Portão e Cercas Elétricas: Garantindo a Segurança do seu Patrimônio",
     description:
       "Nossa equipe de especialistas garante a rápida instalação do motor de portão, assegurando desempenho e segurança. Oferecemos manutenção periódica para mantê-lo em ótimas condições. A cerca elétrica é ideal para residências e comércios, com instalação eficaz e rápida, garantindo a segurança de seu patrimônio.",
     icon: BoltIcon,
   },
   {
-    name: "Nome 05",
+    name: "Motor de Portão para Praticidade, Segurança e Conforto",
     description:
       "Seja em residências ou em estabelecimentos comerciais, o motor de portão da LD é a escolha perfeita para quem busca praticidade, segurança e conforto. A sua satisfação é a nossa prioridade!",
     icon: BoltIcon,
   },
   {
-    name: "Nome 06",
+    name: "LD Elétrica e Tecnologia: Seu Portão Automatizado de Qualidade Superior!",
     description:
       "Não perca mais tempo! Entre em contato conosco agora mesmo e solicite um orçamento gratuito. A LD Elétrica e Tecnologia tem o motor de portão ideal para tornar a sua rotina mais fácil e segura. Experimente as vantagens da automação e desfrute de um portão automatizado de qualidade superior!",
     icon: BoltIcon,

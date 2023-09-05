@@ -17,37 +17,37 @@ import DividerComponent from "../Dividers/dividerComponent";
 
 const features = [
   {
-    name: "Nome 01",
+    name: "Proteção Ininterrupta para sua Propriedade",
     description:
       "Desenvolvida com a mais alta qualidade, nossa cerca elétrica é resistente, durável e eficiente. Com materiais de primeira linha, ela é capaz de suportar as mais adversas condições climáticas, protegendo sua propriedade 24 horas por dia, 7 dias por semana.",
     icon: HandThumbUpIcon,
   },
   {
-    name: "Nome 02",
+    name: "Cerca Elétrica Inteligente",
     description:
       "A cerca elétrica da LD Elétrica e Tecnologia possui alarmes e sensores inteligentes para detectar invasões. Contato com a cerca resulta em um leve choque dissuasivo. Nossos profissionais treinados seguem rigorosos protocolos de segurança, assegurando tranquilidade sua e de outros.",
     icon: ShieldCheckIcon,
   },
   {
-    name: "Nome 03",
+    name: "Monitoramento Remoto de Segurança LD",
     description:
       "A LD Elétrica e Tecnologia oferece um sistema de monitoramento remoto, permitindo que você acompanhe a segurança da sua propriedade a qualquer momento, de qualquer lugar. Com nosso aplicativo intuitivo, você poderá receber notificações em tempo real e controlar seu sistema de segurança com facilidade.",
     icon: CheckBadgeIcon,
   },
   {
-    name: "Nome 04",
+    name: "Proteção Rápida e Confiável para Casa e Negócios",
     description:
       "Indicada tanto para residências como para estabelecimentos comerciais, a cerca elétrica é a escolha ideal para quem busca tranquilidade e proteção. Nosso sistema de instalação é rápido e eficiente, garantindo a segurança do seu patrimônio em pouco tempo.",
     icon: BoltIcon,
   },
   {
-    name: "Nome 05",
+    name: "Suporte Completo em Cerca Elétrica",
     description:
       "Nossa equipe de profissionais altamente qualificados está pronta para fornecer todo o suporte necessário, desde a escolha do modelo até a instalação e manutenção periódica da cerca elétrica. Conte com a gente para proteger o que é mais importante para você!",
     icon: BoltIcon,
   },
   {
-    name: "Nome 06",
+    name: "Segurança em Primeiro Lugar: Orçamento Gratuito para a Melhor Cerca Elétrica da LD",
     description:
       "Priorize a segurança da sua propriedade. Contate-nos para um orçamento gratuito. A LD oferece a solução ideal para sua tranquilidade e proteção, com a melhor cerca elétrica do mercado.",
     icon: BoltIcon,
@@ -56,37 +56,37 @@ const features = [
 
 const featuresSection2 = [
   {
-    name: "Nome 01",
+    name: "Proteção Intransponível para seu Imóvel",
     description:
       "Com seu design inovador e cortantes, a cerca concertina é extremamente eficaz para evitar que intrusos tenham acesso ao seu imóvel. Seus arames com lâminas afiadas são um poderoso dissuasor, proporcionando uma barreira de segurança confiável e impenetrável.",
     icon: HandThumbUpIcon,
   },
   {
-    name: "Nome 02",
+    name: "Instalação Rápida e Segura da Cerca Concertina LD",
     description:
       "A instalação da cerca concertina da LD é rápida e eficiente, realizada por uma equipe de profissionais especializados. O processo é ágil, garantindo a segurança de sua propriedade em pouco tempo.",
     icon: ShieldCheckIcon,
   },
   {
-    name: "Nome 03",
+    name: "Estilo e Segurança Unificados: Cerca Concertina com Design Moderno",
     description:
       "Além de sua função principal de segurança, a cerca concertina também possui um design moderno que se integra perfeitamente à estética de qualquer imóvel. Sua presença é um sinal claro de que sua propriedade está protegida.",
     icon: CheckBadgeIcon,
   },
   {
-    name: "Nome 04",
+    name: "Manutenção Descomplicada para uma Cerca Concertina Duradoura",
     description:
       "A manutenção da cerca concertina é simples e descomplicada, exigindo poucos cuidados ao longo do tempo. Dessa forma, você terá uma barreira de segurança duradoura e eficiente por muitos anos.",
     icon: BoltIcon,
   },
   {
-    name: "Nome 05",
+    name: "Segurança Completa para Residências e Comércios com a Cerca Concertina LD",
     description:
       "Indicada tanto para residências como para estabelecimentos comerciais, a cerca concertina da LD oferece uma solução completa de segurança. Proteja seu patrimônio e tenha tranquilidade em todos os momentos!",
     icon: BoltIcon,
   },
   {
-    name: "Nome 06",
+    name: "Proteja seu Imóvel com a Cerca Concertina da LD Elétrica e Tecnologia - Solicite seu Orçamento Gratuito Agora!",
     description:
       "Entre em contato conosco agora mesmo e solicite um orçamento gratuito. Nossa equipe estará pronta para oferecer todo o suporte necessário, desde a escolha do modelo ideal até a instalação completa da cerca concertina. Confie na LD Elétrica e Tecnologia para a segurança do seu imóvel!",
     icon: BoltIcon,

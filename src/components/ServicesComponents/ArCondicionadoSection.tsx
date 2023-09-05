@@ -18,37 +18,37 @@ import DividerComponent from "../Dividers/dividerComponent";
 
 const features = [
   {
-    name: "Nome 01",
+    name: "Excelência em Ar-Condicionado com Técnicos Especializados",
     description:
       "Profissionais especializados: Nossa equipe de técnicos altamente interessados ​​garantem um atendimento de excelência com habilidades para resolver qualquer problema que possa surgir no seu aparelho de ar-condicionado.",
     icon: HandThumbUpIcon,
   },
   {
-    name: "Nome 02",
+    name: "Reparo Rápido e Eficiente para seu Ar-Condicionado",
     description:
       "Serviço ágil e rápido: você não precisa esperar dias para ter uma solução. Nossa equipe trabalha de forma eficiente e ágil, para que você tenha seu ar-condicionado em perfeito funcionamento o mais rápido possível.",
     icon: ShieldCheckIcon,
   },
   {
-    name: "Nome 03",
+    name: "Qualidade Garantida a Preços Justos com a LD",
     description:
       "Preço justo: Sabemos da importância de oferecer um serviço de qualidade com um preço que caiba no seu bolso. Com a LD, você tem a certeza de um excelente trabalho.",
     icon: CheckBadgeIcon,
   },
   {
-    name: "Nome 04",
+    name: "Instalação, Reparação e Manutenção Preventiva de Ar-Condicionado",
     description:
       "Instalação e manutenção preventiva: Além de realizar a instalação e reparação de ar-condicionado, oferecemos também serviços de manutenção preventiva. Manter seu ar-condicionado no bom estado é essencial para garantir o seu bom estado.",
     icon: BoltIcon,
   },
   {
-    name: "Nome 05",
+    name: "Atendimento Personalizado: Soluções Sob Medida Para Você",
     description:
       "Atendimento personalizado: Aqui cada cliente é único e merece um atendimento especial. Estamos sempre prontos para ouvir suas necessidades e oferecer soluções pessoais.",
     icon: BoltIcon,
   },
   {
-    name: "Nome 06",
+    name: "Conforto a Qualquer Hora: Serviço de Qualidade e Acessível 24/7",
     description:
       "Não deixe o calor te incomodar! Nos escolha e tenha a garantia de um serviço de qualidade com preços acessíveis. Entre em contato conosco agora mesmo e agende uma visita técnica! Estamos disponíveis 24 horas por dia, 7 dias por semana.",
     icon: BoltIcon,
