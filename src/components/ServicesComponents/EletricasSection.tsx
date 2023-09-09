@@ -4,13 +4,15 @@ import React from "react";
 import Image from "next/image";
 
 import {
-  HandThumbUpIcon,
-  SparklesIcon,
-  StarIcon,
-  MapPinIcon,
-  CheckBadgeIcon,
+  WrenchScrewdriverIcon,
+  CpuChipIcon,
+  ChartBarSquareIcon,
+  GlobeAmericasIcon,
+  HomeModernIcon,
+  HomeIcon,
   BoltIcon,
-  ShieldCheckIcon,
+  ShieldExclamationIcon,
+  UserGroupIcon,
 } from "@heroicons/react/24/outline";
 
 import ButtonCTA from "../ButtonCTA/Button";
@@ -21,37 +23,37 @@ const features = [
     name: "Instalações Elétricas Modernas e Confiáveis",
     description:
       "Utilização de equipamentos elétricos avançados, automação, sensores inteligentes e controle digital em instalações modernas aprimora a eficiência energética e simplifica a integração de sistemas, permitindo a coleta de dados para análises e decisões mais informadas.",
-    icon: HandThumbUpIcon,
+    icon: HomeModernIcon,
   },
   {
     name: "Projetos Personalizados de Elétrica",
     description:
       "Capacidade de atender às necessidades exclusivas de cada instalação industrial, garantindo que o sistema elétrico seja eficiente, seguro e confiável. Isso não apenas melhora a produtividade e a eficiência operacional, mas também pode resultar em economia de energia e redução de custos a longo prazo.",
-    icon: ShieldCheckIcon,
+    icon: BoltIcon,
   },
   {
     name: "Atualizações Tecnológicas para Eficiência Energética",
     description:
       "Reduzir o consumo de energia, o que não apenas resulta em economia de custos a longo prazo, mas também contribui para a redução das emissões de carbono e para a sustentabilidade ambiental. Além disso, as atualizações tecnológicas podem melhorar a confiabilidade dos sistemas elétricos e reduzir os riscos de falhas elétricas.",
-    icon: CheckBadgeIcon,
+    icon: CpuChipIcon,
   },
   {
     name: "Manutenção Preventiva e Corretiva",
     description:
       "Avaliação e a manutenção de todos os aspectos da infraestrutura elétrica de uma instalação industrial. Inspeções regulares para identificar e corrigir potenciais pontos de falha, a atualização de equipamentos obsoletos ou danificados e o cumprimento rigoroso das normas de segurança elétrica.",
-    icon: BoltIcon,
+    icon: WrenchScrewdriverIcon,
   },
   {
     name: "Garantindo Conforto e Segurança Elétrica",
     description:
       "Criação de ambientes de trabalho e produção que sejam eficientes e agradáveis para os funcionários e operadores industriais. Isso inclui a instalação de sistemas de iluminação adequados, sistemas de climatização eficientes e o design de layouts elétricos que facilitem a operação.",
-    icon: BoltIcon,
+    icon: HomeIcon,
   },
   {
     name: "Foco na Sustentabilidade e Economia de Energia",
     description:
       "Implementação de estratégias e tecnologias que minimizam o impacto ambiental das operações industriais. Isso inclui a adoção de fontes de energia renovável, como painéis solares ou turbinas eólicas, a otimização dos processos para reduzir o desperdício de energia, e a implementação de medidas de conservação de recursos.",
-    icon: BoltIcon,
+    icon: GlobeAmericasIcon,
   },
 ];
 
@@ -60,37 +62,37 @@ const featuresSection2 = [
     name: "Projeto e Instalação de Sistemas Elétricos Industriais",
     description:
       "Desenvolver um plano personalizado para atender às exigências de uma instalação industrial, abrangendo a avaliação das necessidades de energia, dimensionamento dos componentes elétricos, cumprimento de regulamentações de segurança e meio ambiente, e identificação de estratégias eficazes de distribuição de energia.",
-    icon: HandThumbUpIcon,
+    icon: WrenchScrewdriverIcon,
   },
   {
     name: "Diagnóstico Avançado de Falhas e Reparos Rápidos",
     description:
       "Aplicação de tecnologia avançada, incluindo equipamentos de teste e monitoramento, para identificar de maneira precisa e ágil problemas elétricos, como curtos-circuitos, sobrecargas, desgaste de componentes e falhas em sistemas de energia, evitando interrupções na indústria.",
-    icon: ShieldCheckIcon,
+    icon: BoltIcon,
   },
   {
     name: "Automação e Controle de Processos Elétricos",
     description:
       "Implementação de sistemas avançados que permitem o controle automatizado e inteligente de processos elétricos. Isso envolve a integração de sensores, dispositivos de controle e sistemas de software para monitorar e regular as operações elétricas em tempo real.",
-    icon: CheckBadgeIcon,
+    icon: CpuChipIcon,
   },
   {
     name: "Manutenção Preventiva para Minimizar Paradas",
     description:
       "A manutenção preventiva não apenas aumenta a confiabilidade dos sistemas elétricos, mas também ajuda a evitar paradas não planejadas, que podem resultar em perdas financeiras significativas devido a interrupções na produção.",
-    icon: BoltIcon,
+    icon: ShieldExclamationIcon,
   },
   {
     name: "Energizando Seu Crescimento Industrial.",
     description:
       "Compreendemos a importância crítica de sistemas elétricos confiáveis para suas operações. Seja uma fábrica, planta de produção ou instalação industrial, estamos equipados para lidar com os desafios elétricos mais complexos, permitindo que você se concentre no crescimento dos seus negócios.",
-    icon: BoltIcon,
+    icon: ChartBarSquareIcon,
   },
   {
     name: "Consultoria Especializada Gratuita",
     description:
       "Coloque a sua indústria em uma trajetória de eficiência elétrica e sucesso. Agende uma consulta gratuita para discutir suas necessidades e objetivos. Nossa equipe irá fornecer recomendações personalizadas e um orçamento transparente.",
-    icon: BoltIcon,
+    icon: UserGroupIcon,
   },
 ];
 
