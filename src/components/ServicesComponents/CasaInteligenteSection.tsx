@@ -4,54 +4,52 @@ import React from "react";
 import Image from "next/image";
 
 import {
-  HandThumbUpIcon,
-  SparklesIcon,
-  StarIcon,
-  MapPinIcon,
-  CheckBadgeIcon,
-  BoltIcon,
+  CpuChipIcon,
+  SignalIcon,
+  SpeakerWaveIcon,
+  DevicePhoneMobileIcon,
+  ChatBubbleLeftRightIcon,
   ShieldCheckIcon,
 } from "@heroicons/react/24/outline";
 
 import ButtonCTA from "../ButtonCTA/Button";
-import DividerComponent from "../Dividers/dividerComponent";
 
 const features = [
   {
     name: "Automação",
     description:
       "Automação Conectada: Controle dispositivos eletrônicos, como luzes, termostatos e eletrodomésticos, de qualquer lugar, através do nosso aplicativo intuitivo ou por meio de comandos de voz. Transforme sua casa em um ambiente adaptável às suas necessidades, economizando energia e dinheiro.",
-    icon: HandThumbUpIcon,
+    icon: CpuChipIcon,
   },
   {
     name: "Tecnologia de Áudio Multiroom",
     description:
       "Áudio Multiroom: histórias de música em alta qualidade em qualquer cômodo da sua casa. Com a tecnologia de áudio multiroom, você pode transmitir suas playlists favoritas em sincronia ou em diferentes ambientes, criando uma atmosfera perfeita para cada ocasião.",
-    icon: ShieldCheckIcon,
+    icon: SpeakerWaveIcon,
   },
   {
     name: "Controle na Palma das mãos",
     description:
       "Controle de Ambientes: Personalize o ambiente da sua casa ajustando a iluminação, temperatura e cortinas automaticamente. Crie cenários para diferentes momentos do dia, como acordar, relaxar ou receber convidados. Tudo isso, com apenas um toque.",
-    icon: CheckBadgeIcon,
+    icon: DevicePhoneMobileIcon,
   },
   {
     name: "Segurança",
     description:
       "Segurança Inteligente: Mantenha sua casa protegida com nosso sistema de segurança inteligente. Receba notificações em tempo real sobre atividades suspeitas, controle de câmeras de segurança e tráfego de portas remotamente. Tenha paz de espírito, sabendo que sua casa está segura, mesmo quando você estiver longe",
-    icon: BoltIcon,
+    icon: ShieldCheckIcon,
   },
   {
     name: "Tecnologia de Integração",
     description:
       "Integração perfeita: Pronto para se integrar a outros dispositivos inteligentes, como assistentes de voz, bloqueios e sistemas de entretenimento. Crie uma experiência totalmente conectada e unificada ou controle de todos os seus dispositivos em um único aplicativo.",
-    icon: BoltIcon,
+    icon: SignalIcon,
   },
   {
     name: "Suporte",
     description:
       "Suporte e Atendimento Especializado: A equipe está disponível 24 horas por dia, 7 dias por semana para responder a todas as suas perguntas, fornece orientações e garantir que sua transição para uma casa inteligente seja suave e satisfatória.",
-    icon: BoltIcon,
+    icon: ChatBubbleLeftRightIcon,
   },
 ];
 

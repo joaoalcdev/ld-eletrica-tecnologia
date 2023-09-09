@@ -6,13 +6,12 @@ import Image from "next/image";
 import ButtonCTA from "../ButtonCTA/Button";
 
 import {
-  HandThumbUpIcon,
-  SparklesIcon,
-  StarIcon,
-  MapPinIcon,
-  CheckBadgeIcon,
+  CpuChipIcon,
+  ChatBubbleLeftRightIcon,
+  BellAlertIcon,
   BoltIcon,
-  ShieldCheckIcon,
+  WrenchScrewdriverIcon,
+  VideoCameraIcon,
 } from "@heroicons/react/24/outline";
 
 const featuresSection2 = [
@@ -20,19 +19,19 @@ const featuresSection2 = [
     name: "Tecnologia de Ponta",
     description:
       "Nossas câmeras de segurança utilizam tecnologia mais avançada, garantindo imagens nítidas e de alta qualidade, mesmo em condições de pouca iluminação. Assim, você sempre terá uma visão clara do que está acontecendo.",
-    icon: HandThumbUpIcon,
+    icon: CpuChipIcon,
   },
   {
     name: "Monitoramento em Tempo Real",
     description:
       "Com nossos sistemas de monitoramento, você pode acessar as imagens de suas câmeras em tempo real, a qualquer momento e em qualquer lugar. Esteja sempre conectado e tenha tranquilidade, sabendo que sua casa, loja ou escritório estão protegidos",
-    icon: ShieldCheckIcon,
+    icon: VideoCameraIcon,
   },
   {
-    name: "Alertaas de Segurança",
+    name: "Alertas de Segurança",
     description:
       "Nossas câmeras de segurança possuem recursos inteligentes que enviam alertas automáticos para o seu smartphone ou dispositivo conectado sempre que detectem movimentos suspeitos. Desta forma, você será informado imediatamente sobre qualquer atividade indesejável.",
-    icon: CheckBadgeIcon,
+    icon: BellAlertIcon,
   },
   {
     name: "Instalação Personalizada",
@@ -44,13 +43,13 @@ const featuresSection2 = [
     name: "Serviço de Instalação e Manutenção",
     description:
       "Nossa equipe altamente capacitada e experiente está pronta para instalar e configurar seu sistema de câmeras de segurança.",
-    icon: BoltIcon,
+    icon: WrenchScrewdriverIcon,
   },
   {
     name: "Suporte",
     description:
       "Suporte técnico especializado disponível para auxiliar com qualquer dúvida.",
-    icon: BoltIcon,
+    icon: ChatBubbleLeftRightIcon,
   },
 ];
 
