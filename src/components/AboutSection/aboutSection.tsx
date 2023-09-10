@@ -4,6 +4,9 @@ import Image from "next/image";
 
 import ButtonCTA from "../ButtonCTA/Button";
 
+const Image01 = require("/public/images/AboutImages/Img_02.jpeg");
+const Image02 = require("/public/images/AboutImages/Img_01.jpg");
+
 const AboutSection = () => {
   return (
     <>
@@ -28,14 +31,14 @@ const AboutSection = () => {
             <div className="grid grid-cols-2 gap-4 mt-8">
               <Image
                 className="w-full rounded-lg"
-                src="/images/background_image.jpg"
+                src={Image01}
                 width={500}
                 height={500}
                 alt="office content 1"
               />
               <Image
                 className="mt-4 w-full lg:mt-10 rounded-lg"
-                src="/images/background_image.jpg"
+                src={Image02}
                 width={500}
                 height={500}
                 alt="office content 2"
