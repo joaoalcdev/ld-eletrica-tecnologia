@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const current = "currentColor";
 const newColorSvg = "#ebf8ee";
-const ImageHero = require("/public/images/background_image.jpg");
+const ImageHero = require("/public/images/HeroBackground/bg-02.jpeg");
 
 import Navbar from "../navbar/navbarComponent";
 import ButtonCTA from "../ButtonCTA/Button";
