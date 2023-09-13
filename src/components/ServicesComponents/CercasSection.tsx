@@ -19,6 +19,15 @@ import {
 import ButtonCTA from "../ButtonCTA/Button";
 import DividerComponent from "../Dividers/dividerComponent";
 
+const Image1 = require("/public/images/Services/Cercas/Img_01_01.jpg");
+const Image2 = require("/public/images/Services/Cercas/Img_01_02.jpg");
+const Image3 = require("/public/images/Services/Cercas/Img_01_03.jpeg");
+const Image4 = require("/public/images/Services/Cercas/Img_01_04.jpeg");
+const Image5 = require("/public/images/Services/Cercas/Img_01_05.jpeg");
+const Image6 = require("/public/images/Services/Cercas/Img_02_01.jpg");
+const Image7 = require("/public/images/Services/Cercas/Img_02_02.jpg");
+const Image8 = require("/public/images/Services/Cercas/Img_02_03.jpeg");
+
 const features = [
   {
     name: "Proteção Ininterrupta para sua Propriedade",
@@ -109,7 +118,10 @@ const CercasSection = () => {
             Cercas
           </h1>
         </div>
-        <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6"  id="CercasEletricas">
+        <div
+          className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6"
+          id="CercasEletricas"
+        >
           <div className="mt-4 md:mt-0">
             <div className="inline-flex w-full justify-center md:justify-start items-center text-left">
               <h1 className="mb-4 text-4xl tracking-tight font-extrabold text-blue-200 dark:text-blue-300">
@@ -130,18 +142,18 @@ const CercasSection = () => {
             </div>
           </div>
           <Image
-            width={100}
-            height={100}
+            width={992}
+            height={678}
             className="w-full dark:hidden"
-            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg"
-            alt="dashboard image"
+            src={Image5}
+            alt="Imagem Casa Inteligente"
           />
           <Image
-            width={100}
-            height={100}
+            width={992}
+            height={678}
             className="w-full hidden dark:block"
-            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg"
-            alt="dashboard image"
+            src={Image5}
+            alt="Imagem Casa Inteligente"
           />
         </div>
         <div className="inline-flex w-full justify-center items-center text-center">
@@ -174,20 +186,23 @@ const CercasSection = () => {
         </div>
         <DividerComponent></DividerComponent>
         {/* cercas concertinas */}
-        <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6"  id="CercasConcertinas">
+        <div
+          className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6"
+          id="CercasConcertinas"
+        >
           <Image
-            width={100}
-            height={100}
+            width={992}
+            height={678}
             className="w-full dark:hidden"
-            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg"
-            alt="dashboard image"
+            src={Image2}
+            alt="Imagem Casa Inteligente"
           />
           <Image
-            width={100}
-            height={100}
+            width={992}
+            height={678}
             className="w-full hidden dark:block"
-            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg"
-            alt="dashboard image"
+            src={Image2}
+            alt="Imagem Casa Inteligente"
           />
           <div className="mt-4 md:mt-0">
             <div className="inline-flex w-full justify-center md:justify-start items-center text-left">

@@ -14,6 +14,11 @@ import {
   VideoCameraIcon,
 } from "@heroicons/react/24/outline";
 
+const Image1 = require("/public/images/Services/Cameras/Img_01.jpeg");
+const Image2 = require("/public/images/Services/Cameras/Img_02.jpeg");
+const Image3 = require("/public/images/Services/Cameras/Img_03.jpeg");
+const Image4 = require("/public/images/Services/Cameras/Img_04.jpeg");
+
 const featuresSection2 = [
   {
     name: "Tecnologia de Ponta",
@@ -67,18 +72,18 @@ const CameraSection = () => {
         </div>
         <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
           <Image
-            width={100}
-            height={100}
+            width={992}
+            height={678}
             className="w-full dark:hidden"
-            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg"
-            alt="dashboard image"
+            src={Image3}
+            alt="Camera imagem"
           />
           <Image
-            width={100}
-            height={100}
+            width={992}
+            height={678}
             className="w-full hidden dark:block"
-            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg"
-            alt="dashboard image"
+            src={Image3}
+            alt="Camera imagem"
           />
           <div className="mt-4 md:mt-0">
             <div className="inline-flex w-full justify-center md:justify-start items-center text-left">

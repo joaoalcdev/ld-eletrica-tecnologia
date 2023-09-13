@@ -14,6 +14,13 @@ import {
 
 import ButtonCTA from "../ButtonCTA/Button";
 
+const Image1 = require("/public/images/Services/CasaInteligente/Img_01.jpg");
+const Image2 = require("/public/images/Services/CasaInteligente/Img_02.jpg");
+const Image3 = require("/public/images/Services/CasaInteligente/Img_03.jpeg");
+const Image4 = require("/public/images/Services/CasaInteligente/Img_04.jpeg");
+const Image5 = require("/public/images/Services/CasaInteligente/Img_05.jpeg");
+const Image6 = require("/public/images/Services/CasaInteligente/Img_06.jpeg");
+
 const features = [
   {
     name: "Automação",
@@ -87,18 +94,18 @@ const CasaInteligenteSection = () => {
             </div>
           </div>
           <Image
-            width={100}
-            height={100}
+            width={992}
+            height={678}
             className="w-full dark:hidden"
-            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg"
-            alt="dashboard image"
+            src={Image2}
+            alt="Imagem Casa Inteligente"
           />
           <Image
-            width={100}
-            height={100}
+            width={992}
+            height={678}
             className="w-full hidden dark:block"
-            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg"
-            alt="dashboard image"
+            src={Image2}
+            alt="Imagem Casa Inteligente"
           />
         </div>
         <div className="inline-flex w-full justify-center items-center text-center">

@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 
-
 import Image from "next/image";
 
 import {
@@ -14,7 +13,10 @@ import {
 } from "@heroicons/react/24/outline";
 
 import ButtonCTA from "../ButtonCTA/Button";
-import DividerComponent from "../Dividers/dividerComponent";
+
+const Image1 = require("/public/images/Services/Motores/Img_01.jpg");
+const Image2 = require("/public/images/Services/Motores/Img_02.webp");
+const Image3 = require("/public/images/Services/Motores/Img_03.jpeg");
 
 const features = [
   {
@@ -88,18 +90,18 @@ const MotoresSection = () => {
             </div>
           </div>
           <Image
-            width={100}
-            height={100}
+            width={992}
+            height={678}
             className="w-full dark:hidden"
-            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg"
-            alt="dashboard image"
+            src={Image2}
+            alt="Imagem Casa Inteligente"
           />
           <Image
-            width={100}
-            height={100}
+            width={992}
+            height={678}
             className="w-full hidden dark:block"
-            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg"
-            alt="dashboard image"
+            src={Image2}
+            alt="Imagem Casa Inteligente"
           />
         </div>
         <div className="inline-flex w-full justify-center items-center text-center">
