@@ -18,6 +18,13 @@ import {
 import ButtonCTA from "../ButtonCTA/Button";
 import DividerComponent from "../Dividers/dividerComponent";
 
+const Image1 = require("/public/images/Services/Eletricas/industrial_01.jpg");
+const Image2 = require("/public/images/Services/Eletricas/industrial_02.png");
+const Image3 = require("/public/images/Services/Eletricas/industrial_03.jpg");
+const Image4 = require("/public/images/Services/Eletricas/predial_01.jpg");
+const Image5 = require("/public/images/Services/Eletricas/predial_02.jpg");
+const Image6 = require("/public/images/Services/Eletricas/predial_03.jpg");
+
 const features = [
   {
     name: "Instalações Elétricas Modernas e Confiáveis",
@@ -110,18 +117,18 @@ const EletricasSection = () => {
         </div>
         <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
           <Image
-            width={100}
-            height={100}
+            width={992}
+            height={678}
             className="w-full dark:hidden"
-            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg"
-            alt="dashboard image"
+            src={Image4}
+            alt="Imagem Casa Inteligente"
           />
           <Image
-            width={100}
-            height={100}
+            width={992}
+            height={678}
             className="w-full hidden dark:block"
-            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg"
-            alt="dashboard image"
+            src={Image4}
+            alt="Imagem Casa Inteligente"
           />
           <div className="mt-4 md:mt-0">
             <div className="inline-flex w-full justify-center md:justify-start items-center text-left">
@@ -201,18 +208,18 @@ const EletricasSection = () => {
             </div>
           </div>
           <Image
-            width={100}
-            height={100}
+            width={992}
+            height={678}
             className="w-full dark:hidden"
-            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg"
-            alt="dashboard image"
+            src={Image1}
+            alt="Imagem Casa Inteligente"
           />
           <Image
-            width={100}
-            height={100}
+            width={992}
+            height={678}
             className="w-full hidden dark:block"
-            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg"
-            alt="dashboard image"
+            src={Image1}
+            alt="Imagem Casa Inteligente"
           />
         </div>
         <div className="inline-flex w-full justify-center items-center text-center">

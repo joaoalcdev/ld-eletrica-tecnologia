@@ -170,12 +170,12 @@ export default function HeroSection() {
             </div>
             <div className="text-center">
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                Data to enrich your online business
+                Conheça mais sobre os serviços da LD Elétrica e Tecnologia
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-                lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-                fugiat aliqua.
+                Aqui está vários serviços que nós fornecemos aos clientes. Se
+                estiver interessado, solicite um orçamento e se tiver dúvidas,
+                entre em contato conosco através do botão abaixo.
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <ButtonCTA></ButtonCTA>
