@@ -5,10 +5,11 @@ import Image from "next/image";
 
 const current = "currentColor";
 const newColorSvg = "#ebf8ee";
-const ImageHero = require("/public/images/HeroBackground/bg-02.jpeg");
 
 import Navbar from "../navbar/navbarComponent";
 import ButtonCTA from "../ButtonCTA/Button";
+import CarouselImages from "./CarouselImages";
+// import CarouselImages from "./Carousel";
 
 const HeroSection = () => {
   return (
@@ -24,25 +25,22 @@ const HeroSection = () => {
             >
               <path d="M50 0H100L50 100H0L50 0Z" />
             </svg>
-            <Image
+            {/* <Image
               className="object-cover w-full h-56 rounded shadow-md md:rounded-none md:shadow-none md:h-96 md:h-full"
               src={ImageHero}
               alt=""
-            />
+            /> */}
+            <CarouselImages></CarouselImages>
           </div>
           <div className="px-6 sm:px-12 md:px-16 lg:px-20 relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 md:pl-4 md:max-w-screen-xl">
             <Navbar></Navbar>
             <div className="mb-16 md:my-40 md:max-w-md md:pr-5">
-              <h2 className="text-left lg:text-justify mb-5 font-sans text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl ">
-                Nossos trabalhos alcançam resultados que excedem
-                <span> suas </span>
-                <br className="hidden md:block" />
-                <span className="inline-block text-blue-600">expectativas</span>
+              <h2 className="tracking-tighter text-left lg:text-left mb-5 font-sans text-2xl font-bold text-gray-900 sm:text-3xl ">
+                Não deixe sua tranquilidade ao acaso, invista em segurança
+                eletrônica confiável e eficiente. Proteja o que é importante para
+                você. Entre em contato conosco agora mesmo!
               </h2>
-              <p className="text-justify pr-5 mb-5 text-base text-gray-700 md:text-md">
-                Entre em contato para um orçamento. Estamos à sua disposição
-                para esclarecer qualquer dúvida.
-              </p>
+              {/* <p className="text-left pr-5 mb-5 text-base text-gray-700 md:text-md"> </p> */}
               <ButtonCTA></ButtonCTA>
             </div>
           </div>
