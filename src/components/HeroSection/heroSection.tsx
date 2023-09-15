@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import Image from "next/image";
 
 const current = "currentColor";
 const newColorSvg = "#ebf8ee";
@@ -9,7 +8,7 @@ const newColorSvg = "#ebf8ee";
 import Navbar from "../navbar/navbarComponent";
 import ButtonCTA from "../ButtonCTA/Button";
 import CarouselImages from "./CarouselImages";
-// import CarouselImages from "./Carousel";
+
 
 const HeroSection = () => {
   return (
@@ -25,11 +24,6 @@ const HeroSection = () => {
             >
               <path d="M50 0H100L50 100H0L50 0Z" />
             </svg>
-            {/* <Image
-              className="object-cover w-full h-56 rounded shadow-md md:rounded-none md:shadow-none md:h-96 md:h-full"
-              src={ImageHero}
-              alt=""
-            /> */}
             <CarouselImages></CarouselImages>
           </div>
           <div className="px-6 sm:px-12 md:px-16 lg:px-20 relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 md:pl-4 md:max-w-screen-xl">

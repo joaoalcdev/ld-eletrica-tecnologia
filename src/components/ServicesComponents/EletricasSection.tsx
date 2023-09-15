@@ -18,7 +18,7 @@ import {
 import ButtonCTA from "../ButtonCTA/Button";
 import DividerComponent from "../Dividers/dividerComponent";
 
-const Image1 = require("/public/images/Services/Eletricas/industrial_01.webp");
+const Image1 = require("/public/images/Services/Eletricas/Industrial_01.webp");
 const Image4 = require("/public/images/Services/Eletricas/predial_01.webp");
 
 const features = [

@@ -23,7 +23,7 @@ const Image_BG_01 = () => {
   return (
     <>
       <div className="flex justify-center items-center relative h-32 lg:h-64 w-56 lg:w-60">
-        <Image
+        <Image 
           className="relative inset-0 h-auto w-32 lg:w-48 object-cover"
           src={BG_01}
           alt="bg_01"
