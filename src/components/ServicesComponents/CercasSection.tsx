@@ -19,14 +19,10 @@ import {
 import ButtonCTA from "../ButtonCTA/Button";
 import DividerComponent from "../Dividers/dividerComponent";
 
-const Image1 = require("/public/images/Services/Cercas/Img_01_01.jpg");
-const Image2 = require("/public/images/Services/Cercas/Img_01_02.jpg");
-const Image3 = require("/public/images/Services/Cercas/Img_01_03.jpeg");
-const Image4 = require("/public/images/Services/Cercas/Img_01_04.jpeg");
-const Image5 = require("/public/images/Services/Cercas/Img_01_05.jpeg");
-const Image6 = require("/public/images/Services/Cercas/Img_02_01.jpg");
-const Image7 = require("/public/images/Services/Cercas/Img_02_02.jpg");
-const Image8 = require("/public/images/Services/Cercas/Img_02_03.jpeg");
+
+const Image2 = require("/public/images/Services/Cercas/Img_01_02.webp");
+const Image5 = require("/public/images/Services/Cercas/Img_01_05.webp");
+
 
 const features = [
   {

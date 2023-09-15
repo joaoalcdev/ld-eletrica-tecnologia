@@ -14,12 +14,9 @@ import {
 
 import ButtonCTA from "../ButtonCTA/Button";
 
-const Image1 = require("/public/images/Services/CasaInteligente/Img_01.jpg");
-const Image2 = require("/public/images/Services/CasaInteligente/Img_02.jpg");
-const Image3 = require("/public/images/Services/CasaInteligente/Img_03.jpeg");
-const Image4 = require("/public/images/Services/CasaInteligente/Img_04.jpeg");
-const Image5 = require("/public/images/Services/CasaInteligente/Img_05.jpeg");
-const Image6 = require("/public/images/Services/CasaInteligente/Img_06.jpeg");
+
+const Image2 = require("/public/images/Services/CasaInteligente/Img_02.webp");
+
 
 const features = [
   {
