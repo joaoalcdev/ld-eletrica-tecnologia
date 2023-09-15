@@ -2,10 +2,10 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 
-const ImageHero_01 = require("/public/images/HeroBackground/bg-02.jpeg");
-const ImageHero_02 = require("/public/images/HeroBackground/ImageHero_02.jpeg");
-const ImageHero_03 = require("/public/images/HeroBackground/ImageHero_03.jpeg");
-const ImageHero_04 = require("/public/images/HeroBackground/ImageHero_04.jpeg");
+const ImageHero_01 = require("/public/images/HeroBackground/bg_02.webp");
+const ImageHero_02 = require("/public/images/HeroBackground/Imagehero_02.webp");
+const ImageHero_03 = require("/public/images/HeroBackground/Imagehero_03.webp");
+const ImageHero_04 = require("/public/images/HeroBackground/Imagehero_04.webp");
 
 const CarouselImages: React.FC = () => {
   const images = [ImageHero_01, ImageHero_02, ImageHero_03, ImageHero_04];

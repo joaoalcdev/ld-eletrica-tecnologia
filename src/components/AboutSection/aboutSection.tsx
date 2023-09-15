@@ -4,8 +4,8 @@ import Image from "next/image";
 
 import ButtonCTA from "../ButtonCTA/Button";
 
-const Image01 = require("/public/images/AboutImages/Img_02.jpeg");
-const Image02 = require("/public/images/AboutImages/Img_01.jpg");
+const Image01 = require("/public/images/AboutImages/Img_02.webp");
+const Image02 = require("/public/images/AboutImages/Img_01.webp");
 
 const AboutSection = () => {
   return (

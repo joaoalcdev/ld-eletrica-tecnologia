@@ -3,27 +3,27 @@
 /* eslint-disable react/jsx-key */
 import Image from "next/image";
 
-import BG_01 from "../../../public/testimonials/recautec.png";
-import BG_02 from "../../../public/testimonials/extrafarma.png";
-import BG_03 from "../../../public/testimonials/gov_ceara.png";
-import BG_04 from "../../../public/testimonials/odontocenter.png";
-import BG_05 from "../../../public/testimonials/pref_russas.png";
-import BG_06 from "../../../public/testimonials/recautec.png";
-import BG_07 from "../../../public/testimonials/extrafarma.png";
-import BG_08 from "../../../public/testimonials/gov_ceara.png";
-import BG_09 from "../../../public/testimonials/odontocenter.png";
-import BG_10 from "../../../public/testimonials/pref_russas.png";
-import BG_11 from "../../../public/testimonials/recautec.png";
-import BG_12 from "../../../public/testimonials/extrafarma.png";
-import BG_13 from "../../../public/testimonials/gov_ceara.png";
-import BG_14 from "../../../public/testimonials/odontocenter.png";
-import BG_15 from "../../../public/testimonials/pref_russas.png";
+import BG_01 from "../../../public/testimonials/recautec.webp";
+import BG_02 from "../../../public/testimonials/extrafarma.webp";
+import BG_03 from "../../../public/testimonials/gov_ceara.webp";
+import BG_04 from "../../../public/testimonials/odontocenter.webp";
+import BG_05 from "../../../public/testimonials/pref_russas.webp";
+import BG_06 from "../../../public/testimonials/recautec.webp";
+import BG_07 from "../../../public/testimonials/extrafarma.webp";
+import BG_08 from "../../../public/testimonials/gov_ceara.webp";
+import BG_09 from "../../../public/testimonials/odontocenter.webp";
+import BG_10 from "../../../public/testimonials/pref_russas.webp";
+import BG_11 from "../../../public/testimonials/recautec.webp";
+import BG_12 from "../../../public/testimonials/extrafarma.webp";
+import BG_13 from "../../../public/testimonials/gov_ceara.webp";
+import BG_14 from "../../../public/testimonials/odontocenter.webp";
+import BG_15 from "../../../public/testimonials/pref_russas.webp";
 
 const Image_BG_01 = () => {
   return (
     <>
       <div className="flex justify-center items-center relative h-32 lg:h-64 w-56 lg:w-60">
-        <Image
+        <Image 
           className="relative inset-0 h-auto w-32 lg:w-48 object-cover"
           src={BG_01}
           alt="bg_01"

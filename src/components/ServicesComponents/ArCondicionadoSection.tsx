@@ -14,8 +14,7 @@ import {
 
 import ButtonCTA from "../ButtonCTA/Button";
 
-const Image1 = require("/public/images/Services/ArCondicionado/Img_01.jpeg");
-const Image2 = require("/public/images/Services/ArCondicionado/Img_02.jpeg");
+const Image1 = require("/public/images/Services/ArCondicionado/Img_01.webp");
 
 const features = [
   {

@@ -14,10 +14,9 @@ import {
   VideoCameraIcon,
 } from "@heroicons/react/24/outline";
 
-const Image1 = require("/public/images/Services/Cameras/Img_01.jpeg");
-const Image2 = require("/public/images/Services/Cameras/Img_02.jpeg");
-const Image3 = require("/public/images/Services/Cameras/Img_03.jpeg");
-const Image4 = require("/public/images/Services/Cameras/Img_04.jpeg");
+
+const Image3 = require("/public/images/Services/Cameras/Img_03.webp");
+
 
 const featuresSection2 = [
   {

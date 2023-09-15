@@ -14,9 +14,9 @@ import {
 
 import ButtonCTA from "../ButtonCTA/Button";
 
-const Image1 = require("/public/images/Services/Motores/Img_01.jpg");
+
 const Image2 = require("/public/images/Services/Motores/Img_02.webp");
-const Image3 = require("/public/images/Services/Motores/Img_03.jpeg");
+
 
 const features = [
   {
