@@ -9,10 +9,12 @@ import ArCondicionadoSection from "@/components/ServicesComponents/ArCondicionad
 import CasaInteligenteSection from "@/components/ServicesComponents/CasaInteligenteSection";
 import EletricasSection from "@/components/ServicesComponents/EletricasSection";
 import Footer from "@/components/Footer/footer";
+import WhatsappCTA from "@/components/WhatsappButton/WhatsappCTA";
 
 export default function Page() {
   return (
     <>
+      <WhatsappCTA></WhatsappCTA>
       <HeroSection></HeroSection>
       <DividerComponent></DividerComponent>
       <CamerasSection></CamerasSection>

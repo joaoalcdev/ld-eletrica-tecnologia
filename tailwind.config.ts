@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      // right bottom fumaça tamanho 
+      boxShadow: {
+        'Whats': '0 0px 20px 1px rgba(27, 255, 27, 0.6)',
+      },
       animation: {
         ["infinite-slider"]: "infiniteSlider 30s linear infinite",
         ["infinite-slider2"]: "infiniteSlider2 30s linear infinite",
