@@ -12,7 +12,7 @@ const Footer = () => {
     <>
       <footer className="p-4 bg-[#071028] sm:p-4">
         <div className="px-4 sm:px-12 md:px-16 lg:px-20 mx-auto max-w-screen-xl">
-          <div className="md:flex md:justify-between">
+          <div className="w-full md:flex md:justify-between">
             <div className="mx-auto md:mx-0 my-6 md:mb-0">
               <a
                 href="#"
@@ -21,11 +21,73 @@ const Footer = () => {
                 <Image src={LogoLD} className="h-16 w-auto" alt="Logo" />
               </a>
             </div>
+            <div className="w-full md:w-1/2 md:flex md:justify-end">
+              <div className="mx-auto md:mx-0 my-6 md:mb-0">
+                <p className="text-md mx-auto text-white text-md text-center md:text-justify">
+                  <p className="w-full flex justify-center md:justify-start md:text-start text-gray-400">
+                    Endereço:
+                  </p>
+                  <a
+                    target="_blank"
+                    href="https://www.google.com/maps/place/R.+Chico+Fran%C3%A7a,+727+-+Messejana,+Fortaleza+-+CE,+60871-100/@-3.8350671,-38.4968276,17z/data=!3m1!4b1!4m6!3m5!1s0x7c7501d1625f6c7:0x897dc67a40abcba2!8m2!3d-3.8350671!4d-38.4968276!16s%2Fg%2F11cs727tkd?entry=ttu"
+                    className="flex md:block justify-center md:justify-start items-center text-center md:text-justify"
+                  >
+                    Rua Chico França, 727 - Messejana, Fortaleza
+                  </a>
+                </p>
+              </div>
+            </div>
             <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3"></div>
+            <div className="md:flex md:justify-between">
+              <div className="mx-auto md:mx-0 my-6 md:mb-0">
+                <div className="">
+                  <p className="text-white text-md">
+                    {/* mailto:contato@ldeletricaetecnologia.com.br?subject="Olá! Gostaria de mais informações."&body="Olá! Entrei em contato através do email que vi no site da LD. Por favor, gostaria de mais informações. Obrigado!"  */}
+                    <p className="text-md mx-auto text-white text-md text-center md:text-justify">
+                      <p className="w-full flex justify-center md:justify-start md:text-start text-gray-400">
+                        Email:
+                      </p>
+                      <a
+                        href="mailto:contato@ldeletricaetecnologia.com.br?subject=Olá! Gostaria de mais informações.&body=Olá! Entrei em contato através do email que vi no site da LD. Por favor, gostaria de mais informações. Obrigado!"
+                        className="flex md:block justify-center md:justify-start items-center"
+                      >
+                        contato@ldeletricaetecnologia.com.br
+                      </a>
+                    </p>
+                  </p>
+                  <div className="flex justify-center md:justify-start md:block">
+                    <p className="text-md mx-auto text-white text-md">
+                      <p className="flex justify-start text-start text-white">
+                        <p className="text-gray-400 pr-1">Tel:</p>
+                        <a
+                          href="https://wa.me/5585985747802?text=Ol%C3%A1%21+Vi+seu+n%C3%BAmero+pelo+site.+Gostaria+de+mais+informa%C3%A7%C3%B5es+sobre+os+servi%C3%A7os."
+                          className="flex text-center md:text-justify md:block justify-center md:justify-start items-center"
+                        >
+                          (85) 98574-7802
+                        </a>
+                      </p>
+                    </p>
+                  </div>
+                  <div className="flex justify-center md:justify-start md:block">
+                    <p className="text-md mx-auto text-white text-md">
+                      <p className="flex justify-start text-start text-white">
+                        <p className="text-gray-400 pr-1">Tel:</p>
+                        <a
+                          href="https://wa.me/5588993368262?text=Ol%C3%A1%21+Vi+seu+n%C3%BAmero+pelo+site.+Gostaria+de+mais+informa%C3%A7%C3%B5es+sobre+os+servi%C3%A7os."
+                          className="flex text-center md:text-justify md:block justify-center md:justify-start items-center"
+                        >
+                          (88) 99336-8262
+                        </a>
+                      </p>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-          <div className="sm:flex sm:items-center sm:justify-between">
-            <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+          <div className="sm:flex sm:items-center sm:justify-between sm:text-justify text-center">
+            <span className="text-sm text-gray-500 sm:text-justify text-center dark:text-gray-400">
               © {anoAtual}{" "}
               <a
                 href="https://ldeletricaetecnologia.com.br/"
@@ -36,7 +98,7 @@ const Footer = () => {
               </a>
               . Todos os direitos reservados.
             </span>
-            <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
+            <div className="flex mt-4 space-x-6 justify-center sm:mt-0">
               <a
                 href="https://www.instagram.com/ldeletrica_tecnologia/"
                 className="ease-in-out duration-300 text-gray-500 hover:text-blue-900 dark:hover:text-blue-100"
@@ -60,7 +122,7 @@ const Footer = () => {
                 className="ease-in-out duration-300 text-gray-500 hover:text-blue-900 dark:hover:text-blue-100"
                 target="_blank"
               >
-                {/* icone do twitter */}
+                {/* icone do whatsapp */}
                 <svg
                   className="w-5 h-5"
                   fill="currentColor"
@@ -71,11 +133,11 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                href="https://wa.me/85986800352?text=Ol%C3%A1%21+Vi+seu+n%C3%BAmero+pelo+site.+Gostaria+de+mais+informa%C3%A7%C3%B5es+sobre+os+servi%C3%A7os."
+                href="https://wa.me/5585985747802?text=Ol%C3%A1%21+Vi+seu+n%C3%BAmero+pelo+site.+Gostaria+de+mais+informa%C3%A7%C3%B5es+sobre+os+servi%C3%A7os."
                 className="ease-in-out duration-300 text-gray-500 hover:text-blue-900 dark:hover:text-blue-100"
                 target="_blank"
               >
-                {/* icone do twitter */}
+                {/* icone do whatsapp */}
                 <svg
                   className="w-5 h-5"
                   fill="currentColor"
