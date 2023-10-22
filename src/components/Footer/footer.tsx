@@ -76,7 +76,7 @@ const Footer = () => {
                           href="https://wa.me/5588993368262?text=Ol%C3%A1%21+Vi+seu+n%C3%BAmero+pelo+site.+Gostaria+de+mais+informa%C3%A7%C3%B5es+sobre+os+servi%C3%A7os."
                           className="flex text-center md:text-justify md:block justify-center md:justify-start items-center"
                         >
-                          (85) 99336-8262
+                          (88) 99336-8262
                         </a>
                       </p>
                     </p>
