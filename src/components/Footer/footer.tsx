@@ -68,7 +68,7 @@ const Footer = () => {
                       </p>
                     </p>
                   </div>
-                  <div className="flex justify-center md:justify-start md:block">
+                  {/* <div className="flex justify-center md:justify-start md:block">
                     <p className="text-md mx-auto text-white text-md">
                       <p className="flex justify-start text-start text-white">
                         <p className="text-gray-400 pr-1">Tel:</p>
@@ -76,11 +76,11 @@ const Footer = () => {
                           href="https://wa.me/5585985747802?text=Ol%C3%A1%21+Vi+seu+n%C3%BAmero+pelo+site.+Gostaria+de+mais+informa%C3%A7%C3%B5es+sobre+os+servi%C3%A7os."
                           className="flex text-center md:text-justify md:block justify-center md:justify-start items-center"
                         >
-                          (88) 99336-8262
+                          (85) 98574-7802
                         </a>
                       </p>
                     </p>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
