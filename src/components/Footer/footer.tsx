@@ -73,7 +73,7 @@ const Footer = () => {
                       <p className="flex justify-start text-start text-white">
                         <p className="text-gray-400 pr-1">Tel:</p>
                         <a
-                          href="https://wa.me/5588993368262?text=Ol%C3%A1%21+Vi+seu+n%C3%BAmero+pelo+site.+Gostaria+de+mais+informa%C3%A7%C3%B5es+sobre+os+servi%C3%A7os."
+                          href="https://wa.me/5585985747802?text=Ol%C3%A1%21+Vi+seu+n%C3%BAmero+pelo+site.+Gostaria+de+mais+informa%C3%A7%C3%B5es+sobre+os+servi%C3%A7os."
                           className="flex text-center md:text-justify md:block justify-center md:justify-start items-center"
                         >
                           (88) 99336-8262
@@ -118,7 +118,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                href="https://wa.me/5588993368262?text=Ol%C3%A1%21+Vi+seu+n%C3%BAmero+pelo+site.+Gostaria+de+mais+informa%C3%A7%C3%B5es+sobre+os+servi%C3%A7os."
+                href="https://wa.me/5585985747802?text=Ol%C3%A1%21+Vi+seu+n%C3%BAmero+pelo+site.+Gostaria+de+mais+informa%C3%A7%C3%B5es+sobre+os+servi%C3%A7os."
                 className="ease-in-out duration-300 text-gray-500 hover:text-blue-900 dark:hover:text-blue-100"
                 target="_blank"
               >
