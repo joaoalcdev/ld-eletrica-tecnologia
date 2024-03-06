@@ -6,7 +6,7 @@ const WhatsappCTA = () => {
       <div className="z-50 flex relative justify-center w-full items-center">
         <div className="fixed bottom-5 right-5 bg-[#2FB737] rounded-full">
           <a
-            href="https://wa.me/5588993368262?text=Ol%C3%A1%21+Vi+seu+n%C3%BAmero+pelo+site.+Gostaria+de+mais+informa%C3%A7%C3%B5es+sobre+os+servi%C3%A7os."
+            href="https://wa.me/5585985747802?text=Ol%C3%A1%21+Vi+seu+n%C3%BAmero+pelo+site.+Gostaria+de+mais+informa%C3%A7%C3%B5es+sobre+os+servi%C3%A7os."
             className="flex text-white p-5 rounded-full shadow-Whats"
           >
             <div className="bg-[#1bb51b]/[0.4] fixed w-[9.735rem] h-[9.735rem] z-40 waves bottom-[-18.5px] right-[-18.5px] opacity-0 rounded-full wave-1"></div>
